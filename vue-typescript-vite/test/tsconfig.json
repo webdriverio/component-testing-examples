@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "moduleResolution": "node",
+        "module": "ESNext",
+        "lib": ["dom", "ESNext"],
+        "target": "es2022",
+        "esModuleInterop": true,
+        "types": [
+            "node",
+            "webdriverio/async",
+            "@wdio/browser-runner",
+            "@wdio/mocha-framework",
+            "@types/mocha",
+            "expect-webdriverio"
+        ]
+    }
+}
