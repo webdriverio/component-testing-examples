@@ -1,11 +1,11 @@
 import { $, expect } from '@wdio/globals'
-import { render } from '@testing-library/vue'
-import HelloWorld from '../../src/components/HelloWorld.vue'
+import { render } from '@testing-library/svelte'
+import Counter from '../../src/lib/Counter.svelte'
 
 describe('Vue Component Testing', () => {
     it('increments value on click', async () => {
         // The render method returns a collection of utilities to query your component.
-        const { getByText } = render(HelloWorld)
+        const { getByText } = render(Counter)
 
         // getByText returns the first matching node for the provided text, and
         // throws an error if no elements match or if more than one match is found.

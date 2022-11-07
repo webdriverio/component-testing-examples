@@ -30,7 +30,7 @@ export const config: Options.Testrunner = {
         // for all available options
         tsNodeOpts: {
             transpileOnly: true,
-            project: `./tsconfig.json`
+            project: 'test/tsconfig.json'
         }
         // tsconfig-paths is only used if "tsConfigPathsOpts" are provided, if you
         // do please make sure "tsconfig-paths" is installed as dependency
@@ -55,7 +55,7 @@ export const config: Options.Testrunner = {
     // will be called from there.
     //
     specs: [
-        `./test/specs/**/*.ts`
+        './test/specs/**/*.ts'
     ],
     // Patterns to exclude.
     exclude: [
@@ -143,10 +143,6 @@ export const config: Options.Testrunner = {
     //
     // Default request retries count
     connectionRetryCount: 3,
-
-    runner: ['browser', {
-        preset: 'vue'
-    }],
     //
     // Test runner services
     // Services take over a specific job you don't want to take care of. They enhance
@@ -176,7 +172,9 @@ export const config: Options.Testrunner = {
     // see also: https://webdriver.io/docs/dot-reporter
     reporters: ['spec'],
 
-
+    runner: ['browser', {
+        preset: 'svelte'
+    }],
     
     //
     // Options to be passed to Mocha.
