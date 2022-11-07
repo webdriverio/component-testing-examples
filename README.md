@@ -1,4 +1,4 @@
-# WebdriverIO Component Testing Examples
+# WebdriverIO Component Testing Examples [![Test](https://github.com/webdriverio/component-testing-examples/actions/workflows/test.yaml/badge.svg)](https://github.com/webdriverio/component-testing-examples/actions/workflows/test.yaml)
 
 This repository contains several examples for testing web components using WebdriverIO. They are using different frameworks and set-ups and we will continue to add more examples as we improve support for more environments. All examples use WebdriverIO v8 and the `@wdio/browser-runner` to run tests within the browser environment.
 
