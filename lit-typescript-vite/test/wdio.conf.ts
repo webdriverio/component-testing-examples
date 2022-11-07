@@ -108,7 +108,7 @@ export const config: Options.Testrunner = {
     ...(process.env.CI
         ? { outputDir: path.resolve(__dirname, 'logs') }
         : {}
-    )
+    ),
     //
     // Set specific log levels per logger
     // loggers:

@@ -26,5 +26,5 @@ jobs:
         - uses: actions/upload-artifact@v1
           if: failure()
           with:
-            name: ${{ matrix.exampleDir }}/test/logs
+            name: logs
             path: ${{ matrix.exampleDir }}/test/logs
