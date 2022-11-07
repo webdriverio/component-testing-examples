@@ -6,10 +6,10 @@ jobs:
     strategy:
       matrix:
         exampleDir:
-          - lit-typescript-vite,
-          - preact-typescript-vite,
-          - react-typescript-vite,
-          - svelte-typescript-vite,
+          - lit-typescript-vite
+          - preact-typescript-vite
+          - react-typescript-vite
+          - svelte-typescript-vite
           - vue-typescript-vite
     steps:
         - name: Checkout
