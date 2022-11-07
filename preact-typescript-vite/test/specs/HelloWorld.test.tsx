@@ -1,3 +1,4 @@
+import { h } from 'preact'
 import { $, expect } from '@wdio/globals'
 import { render } from '@testing-library/preact'
 import { App } from '../../src/app'

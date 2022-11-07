@@ -1,3 +1,4 @@
+import React from 'react'
 import { $, expect } from '@wdio/globals'
 import { render } from '@testing-library/react'
 import App from '../../src/App'
