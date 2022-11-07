@@ -17,7 +17,7 @@ jobs:
         - uses: actions/setup-node@v1
           with:
             node-version: 18
-        - run: cd ${{ matrix.vscodeVersion }}
+        - run: cd ${{ matrix.exampleDir }}
         - name: Install
           run: npm install
         - name: Test
@@ -25,5 +25,5 @@ jobs:
         - uses: actions/upload-artifact@v1
           if: failure()
           with:
-            name: ${{ matrix.vscodeVersion }}/test/logs
-            path: ${{ matrix.vscodeVersion }}/test/logs
+            name: ${{ matrix.exampleDir }}/test/logs
+            path: ${{ matrix.exampleDir }}/test/logs
