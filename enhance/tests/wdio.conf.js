@@ -1,3 +1,8 @@
+import url from 'url'
+import path from 'path'
+
+const __dirname = url.fileURLToPath(new URL('.', import.meta.url))
+
 export const config = {
     //
     // ====================
@@ -77,6 +82,10 @@ export const config = {
     //
     // Level of logging verbosity: trace | debug | info | warn | error | silent
     logLevel: 'info',
+    ...(process.env.CI
+        ? { outputDir: path.resolve(__dirname, 'logs') }
+        : {}
+    ),
     //
     // Set specific log levels per logger
     // loggers:
