@@ -11,6 +11,7 @@ jobs:
           - react-typescript-vite
           - svelte-typescript-vite
           - vue-typescript-vite
+          - solidjs-typescript-vite
           - enhance
           - create-react-app
     steps:
