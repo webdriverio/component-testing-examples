@@ -12,6 +12,7 @@ jobs:
           - svelte-typescript-vite
           - vue-typescript-vite
           - enhance
+          - create-react-app
     steps:
         - name: Checkout
           uses: actions/checkout@v2

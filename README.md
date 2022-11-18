@@ -10,6 +10,7 @@ Current examples are:
 - [`svelte-typescript-vite`](https://github.com/webdriverio/component-testing-examples/tree/main/svelte-typescript-vite): [Svelte](https://svelte.dev/) + [TypeScript](https://www.typescriptlang.org/) compiled with [Vite](https://vitejs.dev/)
 - [`vue-typescript-vite`](https://github.com/webdriverio/component-testing-examples/tree/main/vue-typescript-vite): [Vue.js](https://vuejs.org/) + [TypeScript](https://www.typescriptlang.org/) compiled with [Vite](https://vitejs.dev/)
 - [`enhance`](https://github.com/webdriverio/component-testing-examples/tree/main/enhance): [Enhance](https://enhance.dev/docs/)
+- [`create-react-app`](https://github.com/webdriverio/component-testing-examples/tree/main/create-react-app`): [Create React App](https://create-react-app.dev/)
 
 If you are missing an example, feel free to [raise an issue](https://github.com/webdriverio/component-testing-examples/issues/new).
 
