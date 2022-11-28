@@ -1,4 +1,5 @@
 import type { Options } from '@wdio/types'
+import type { UserConfig } from 'vite'
 import viteConfig from '../vite.config.js'
 
 export const config: Options.Testrunner = {
@@ -64,8 +65,7 @@ export const config: Options.Testrunner = {
     // WebdriverIO supports running e2e tests as well as unit and component tests.
     runner: [
         'browser', {
-            // @ts-expect-error known issue
-            viteConfig
+            viteConfig: viteConfig as UserConfig
         }
     ],
     //

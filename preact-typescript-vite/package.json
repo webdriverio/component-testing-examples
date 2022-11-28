@@ -10,21 +10,21 @@
     "wdio": "wdio run test/wdio.conf.ts"
   },
   "dependencies": {
-    "preact": "^10.11.2"
+    "preact": "^10.11.3"
   },
   "devDependencies": {
     "@preact/preset-vite": "^2.4.0",
     "@testing-library/preact": "^3.2.2",
     "@types/mocha": "^10.0.0",
-    "@wdio/browser-runner": "^8.0.0-alpha.558",
-    "@wdio/cli": "^8.0.0-alpha.558",
-    "@wdio/globals": "^8.0.0-alpha.558",
-    "@wdio/mocha-framework": "^8.0.0-alpha.558",
-    "@wdio/spec-reporter": "^8.0.0-alpha.558",
+    "@wdio/browser-runner": "^8.0.0-alpha.598",
+    "@wdio/cli": "^8.0.0-alpha.598",
+    "@wdio/globals": "^8.0.0-alpha.598",
+    "@wdio/mocha-framework": "^8.0.0-alpha.598",
+    "@wdio/spec-reporter": "^8.0.0-alpha.598",
     "chromedriver": "^107.0.3",
     "ts-node": "^10.9.1",
-    "typescript": "^4.8.4",
-    "vite": "^3.2.0",
-    "wdio-chromedriver-service": "^8.0.0-alpha.1"
+    "typescript": "^4.9.3",
+    "vite": "^3.2.4",
+    "wdio-chromedriver-service": "^8.0.0"
   }
 }

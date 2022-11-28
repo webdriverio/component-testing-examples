@@ -5,7 +5,6 @@
         "esModuleInterop": true,
         "types": [
             "node",
-            "mocha",
             "@wdio/globals/types",
             "@wdio/mocha-framework",
             "expect-webdriverio"
