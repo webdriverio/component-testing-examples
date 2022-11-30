@@ -1,9 +1,32 @@
 import url from 'url'
 import path from 'path'
 
+import type { Options } from '@wdio/types'
+
 const __dirname = url.fileURLToPath(new URL('.', import.meta.url))
 
-export const config = {
+export const config: Options.Testrunner = {
+  //
+  // =====================
+  // ts-node Configurations
+  // =====================
+  //
+  // You can write tests using TypeScript to get autocompletion and type safety.
+  // You will need typescript and ts-node installed as devDependencies.
+  // WebdriverIO will automatically detect if these dependencies are installed
+  // and will compile your config and tests for you.
+  // If you need to configure how ts-node runs please use the
+  // environment variables for ts-node or use wdio config's autoCompileOpts section.
+  //
+  autoCompileOpts: {
+    autoCompile: true,
+    // see https://github.com/TypeStrong/ts-node#cli-and-programmatic-options
+    // for all available options
+    tsNodeOpts: {
+      transpileOnly: true,
+      project: './tsconfig.json'
+    }
+  },
   //
   // ==================
   // Specify Test Files
@@ -21,18 +44,12 @@ export const config = {
   // will be called from there.
   //
   specs: [
-    './specs/*.test.js'
+    './src/tests/**/*.tsx'
   ],
   // Patterns to exclude.
   exclude: [
     // 'path/to/excluded/files'
   ],
-  //
-  // ======
-  // Runner
-  // ======
-  // WebdriverIO supports running e2e tests as well as unit and component tests.
-  runner: 'browser',
   //
   // ============
   // Capabilities
@@ -93,7 +110,7 @@ export const config = {
   // with `/`, the base url gets prepended, not including the path portion of your baseUrl.
   // If your `url` parameter starts without a scheme or `/` (like `some/path`), the base url
   // gets prepended directly.
-  baseUrl: '',
+  baseUrl: 'http://localhost',
   //
   // Default timeout for all waitFor* commands.
   waitforTimeout: 10000,
@@ -132,6 +149,9 @@ export const config = {
   // The only one supported by default is 'dot'
   // see also: https://webdriver.io/docs/dot-reporter
   reporters: ['spec'],
+  runner: ['browser', {
+    preset: 'preact'
+  }],
   //
   // Options to be passed to Mocha.
   // See the full list at http://mochajs.org/

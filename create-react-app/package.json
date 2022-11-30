@@ -6,10 +6,10 @@
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^14.4.3",
-    "@wdio/browser-runner": "^8.0.0-alpha.598",
-    "@wdio/cli": "^8.0.0-alpha.598",
-    "@wdio/mocha-framework": "^8.0.0-alpha.598",
-    "@wdio/spec-reporter": "^8.0.0-alpha.598",
+    "@wdio/browser-runner": "^8.0.0-alpha.620",
+    "@wdio/cli": "^8.0.0-alpha.620",
+    "@wdio/mocha-framework": "^8.0.0-alpha.620",
+    "@wdio/spec-reporter": "^8.0.0-alpha.620",
     "@vitejs/plugin-react": "^2.2.0",
     "chromedriver": "^107.0.3",
     "wdio-chromedriver-service": "^8.0.0",
@@ -24,7 +24,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "wdio": "wdio run ./tests/wdio.conf.js"
+    "wdio": "wdio run ./wdio.conf.js"
   },
   "eslintConfig": {
     "extends": [

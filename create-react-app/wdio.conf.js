@@ -1,8 +1,3 @@
-import url from 'url'
-import path from 'path'
-
-const __dirname = url.fileURLToPath(new URL('.', import.meta.url))
-
 export const config = {
   //
   // ==================
@@ -21,7 +16,7 @@ export const config = {
   // will be called from there.
   //
   specs: [
-    './specs/*.test.js'
+    './src/tests/*.test.jsx'
   ],
   // Patterns to exclude.
   exclude: [
@@ -32,7 +27,9 @@ export const config = {
   // Runner
   // ======
   // WebdriverIO supports running e2e tests as well as unit and component tests.
-  runner: 'browser',
+  runner: ['browser', {
+    preset: 'react'
+  }],
   //
   // ============
   // Capabilities
@@ -66,10 +63,6 @@ export const config = {
   //
   // Level of logging verbosity: trace | debug | info | warn | error | silent
   logLevel: 'info',
-  ...(process.env.CI
-    ? { outputDir: path.resolve(__dirname, 'logs') }
-    : {}
-  ),
   //
   // Set specific log levels per logger
   // loggers:
