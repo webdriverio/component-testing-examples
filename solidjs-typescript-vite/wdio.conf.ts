@@ -41,7 +41,8 @@ export const config: Options.Testrunner = {
   // will be called from there.
   //
   specs: [
-    './src/tests/**/*.tsx'
+    // wrap into array so they all run within a single browser instance
+    ['./src/tests/**/*.tsx']
   ],
   // Patterns to exclude.
   exclude: [
