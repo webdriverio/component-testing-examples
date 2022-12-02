@@ -21,7 +21,10 @@ jobs:
           with:
             node-version: 18
         - name: Install
-          run: npm install
+          run: |
+            npm install
+            rm -r ./node_modules/chromedriver
+            npm i chromedriver@107
           working-directory: ${{ matrix.exampleDir }}
         - name: Test
           run: npm run wdio
@@ -30,4 +33,4 @@ jobs:
           if: failure()
           with:
             name: logs
-            path: ${{ matrix.exampleDir }}/test/logs
+            path: ${{ matrix.exampleDir }}/logs
