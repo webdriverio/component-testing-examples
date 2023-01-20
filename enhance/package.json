@@ -7,13 +7,13 @@
   "devDependencies": {
     "@architect/sandbox": "latest",
     "@enhance/ssr": "^3.0.9",
-    "@wdio/browser-runner": "^8.0.4",
-    "@wdio/cli": "^8.0.4",
-    "@wdio/mocha-framework": "^8.0.2",
-    "@wdio/spec-reporter": "^8.0.0",
-    "chromedriver": "^108.0.0",
+    "@wdio/browser-runner": "^8.1.3",
+    "@wdio/cli": "^8.1.3",
+    "@wdio/mocha-framework": "^8.1.2",
+    "@wdio/spec-reporter": "^8.1.2",
+    "chromedriver": "^109.0.0",
     "eslint": "latest",
-    "wdio-chromedriver-service": "^8.0.0"
+    "wdio-chromedriver-service": "^8.0.1"
   },
   "dependencies": {
     "@enhance/arc-plugin-enhance": "latest"
