@@ -24,7 +24,7 @@ jobs:
           run: |
             npm install
             rm -r ./node_modules/chromedriver
-            npm i chromedriver@107
+            npm i chromedriver@109
           working-directory: ${{ matrix.exampleDir }}
         - name: Test
           run: npm run wdio
