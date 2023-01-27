@@ -1,4 +1,4 @@
-import { $, $$, browser, expect } from '@wdio/globals'
+import { $$, expect } from '@wdio/globals'
 import { render } from '@testing-library/svelte'
 import Hoverable from './__fixtures__/Hoverable.svelte'
 

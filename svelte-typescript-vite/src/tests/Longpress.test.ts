@@ -1,4 +1,4 @@
-import { $, $$, browser, expect } from '@wdio/globals'
+import { $, browser, expect } from '@wdio/globals'
 import { render } from '@testing-library/svelte'
 import Longpress from '../lib/Longpress.svelte'
 
