@@ -11,27 +11,16 @@ describe('Svelte Component Testing', () => {
 
     const $root = await $(root)
 
-    const size = await $root.getSize()
-    const location = await $root.getLocation()
     await browser.action('pointer')
-        .move({
-            x: x || Math.round(location.x + (size.width / 2)),
-            y: y || Math.round(location.y + (size.height / 2))
-        })
+        .move({ origin: $root })
         .down()
         .up()
         .perform()
   }
 
   async function openAdjustMenu (circle: WebdriverIO.Element) {
-    const size = await circle.getSize()
-    const location = await circle.getLocation()
-
     await browser.action('pointer')
-      .move({
-          x: Math.round(location.x + (size.width / 2)),
-          y: Math.round(location.y + (size.height / 2))
-      })
+      .move({ origin: circle })
       .down({ button: 2 })
       .up({ button: 2 })
       .perform()
@@ -64,10 +53,7 @@ describe('Svelte Component Testing', () => {
     const size = await menu.getSize()
     const location = await menu.getLocation()
     await browser.action('pointer')
-      .move({
-          x: Math.round(location.x + (size.width / 2)),
-          y: Math.round(location.y + (size.height / 2))
-      })
+      .move({ origin: menu })
       .down({ button: 0 })
       .move({ x: Math.round(location.x + size.width) })
       .up({ button: 0 })
@@ -75,10 +61,7 @@ describe('Svelte Component Testing', () => {
     expect(await circle.getAttribute('r')).toBe('100')
 
     await browser.action('pointer')
-      .move({
-          x: Math.round(location.x + (size.width / 2)),
-          y: Math.round(location.y + (size.height / 2))
-      })
+      .move({ origin: menu })
       .down({ button: 0 })
       .move({ x: Math.round(location.x) })
       .up({ button: 0 })
