@@ -44,7 +44,7 @@ export const config: Options.Testrunner = {
   // will be called from there.
   //
   specs: [
-    './src/tests/**/*.ts'
+    ['./src/tests/**/*.ts']
   ],
   // Patterns to exclude.
   exclude: [
@@ -150,14 +150,23 @@ export const config: Options.Testrunner = {
   // see also: https://webdriver.io/docs/dot-reporter
   reporters: ['spec'],
   runner: ['browser', {
-    preset: 'svelte'
+    preset: 'svelte',
+    coverage: {
+      enabled: true,
+      statements: 89,
+      branches: 72,
+      functions: 66,
+      lines: 91
+    }
   }],
   //
   // Options to be passed to Mocha.
   // See the full list at http://mochajs.org/
   mochaOpts: {
     ui: 'bdd',
-    timeout: 6000000
+    timeout: process.env.CI
+      ? 10 * 1000 // 10s
+      : 10 * 60 * 1000 // 10min
   },
   //
   // =====

@@ -44,7 +44,7 @@ export const config: Options.Testrunner = {
   // will be called from there.
   //
   specs: [
-    `./src/tests/**/*.ts`
+    [`./src/tests/**/*.ts`]
   ],
   // Patterns to exclude.
   exclude: [
@@ -123,7 +123,14 @@ export const config: Options.Testrunner = {
   connectionRetryCount: 3,
 
   runner: ['browser', {
-    preset: 'vue'
+    preset: 'vue',
+    coverage: {
+      enabled: true,
+      statements: 63,
+      branches: 77,
+      functions: 66,
+      lines: 62
+    }
   }],
   //
   // Test runner services
