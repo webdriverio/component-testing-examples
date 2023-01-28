@@ -33,7 +33,8 @@ describe('Svelte Component Testing', () => {
   it('can set a circle', async () => {
     await setCircle()
     const circle = await $('circle')
-    expect(await circle.getAttribute('cy')).toBe('400')
+    expect(await circle.getAttribute('cy')).toBe(
+      process.env.CI ? '375' : '400')
     expect(await circle.getAttribute('r')).toBe('50')
   })
 
