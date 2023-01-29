@@ -4,15 +4,18 @@ import { render } from '@testing-library/svelte'
 import CircleDrawer from '../lib/CircleDrawer.svelte'
 
 describe('Svelte Component Testing', () => {
-  async function setCircle (x?: number, y?: number) {
+  let root: HTMLElement
+
+  beforeEach(async () => {
     const { component } = render(CircleDrawer)
-    const root = component.$$.root as HTMLElement
+    root = component.$$.root as HTMLElement
     root.setAttribute('style', 'height: 500px')
+  })
 
+  async function setCircle (x?: number, y?: number) {
     const $root = await $(root)
-
     await browser.action('pointer')
-        .move({ origin: $root })
+        .move(x && y ? { x, y } : { origin: $root })
         .down()
         .up()
         .perform()
@@ -36,6 +39,21 @@ describe('Svelte Component Testing', () => {
     expect(await circle.getAttribute('cy')).toBe(
       process.env.CI ? '375' : '400')
     expect(await circle.getAttribute('r')).toBe('50')
+    expect(await circle.getAttribute('fill')).toBe('#ccc')
+
+    await setCircle(200, 200)
+    const circles = await $$('circle')
+    expect(circles).toHaveLength(2)
+    expect(await circle.getAttribute('fill')).toBe('white')
+
+    await circle.click()
+    expect(await circle.getAttribute('fill')).toBe('#ccc')
+
+    await $('button=undo').click()
+    await expect($$('circle')).toBeElementsArrayOfSize(1)
+
+    await $('button=redo').click()
+    await expect($$('circle')).toBeElementsArrayOfSize(2)
   })
 
   it('pop up modal for adjusting circle size', async () => {

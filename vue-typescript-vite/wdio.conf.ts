@@ -126,10 +126,10 @@ export const config: Options.Testrunner = {
     preset: 'vue',
     coverage: {
       enabled: true,
-      statements: 63,
-      branches: 77,
-      functions: 66,
-      lines: 62
+      statements: 84,
+      branches: 95,
+      functions: 94,
+      lines: 84
     }
   }],
   //

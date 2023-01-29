@@ -1,17 +1,21 @@
 /// <reference types="@wdio/globals/types" />
-import { $, expect, browser } from '@wdio/globals'
+import { $, $$, expect, browser } from '@wdio/globals'
 import { render } from '@testing-library/vue'
 import CircleDrawer from '../components/CircleDrawer.vue'
 
 describe('Vue Component Testing', () => {
-  async function setCircle(x?: number, y?: number) {
+  let root: HTMLElement
+
+  beforeEach(async () => {
     const { baseElement } = render(CircleDrawer)
+    root = baseElement as HTMLElement
     baseElement.setAttribute('style', 'height: 500px')
+  })
 
-    const $root = await $(baseElement as HTMLElement)
-
+  async function setCircle (x?: number, y?: number) {
+    const $root = await $(root)
     await browser.action('pointer')
-      .move({ origin: $root })
+      .move(x && y ? { x, y } : { origin: $root })
       .down()
       .up()
       .perform()
@@ -34,6 +38,19 @@ describe('Vue Component Testing', () => {
     const circle = await $('circle')
     expect(await circle.getAttribute('cy')).toBe('310')
     expect(await circle.getAttribute('r')).toBe('50')
+    expect(await circle.getAttribute('fill')).toBe('#fff')
+
+    await setCircle(200, 200)
+    const circles = await $$('circle')
+
+    expect(circles).toHaveLength(2)
+    expect(await circle.getAttribute('fill')).toBe('#fff')
+
+    await $('button=Undo').click()
+    await expect($$('circle')).toBeElementsArrayOfSize(1)
+
+    await $('button=Redo').click()
+    await expect($$('circle')).toBeElementsArrayOfSize(2)
   })
 
   it('pop up modal for adjusting circle size', async () => {
