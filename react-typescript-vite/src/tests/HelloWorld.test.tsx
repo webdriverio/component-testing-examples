@@ -3,7 +3,7 @@ import { $, expect } from '@wdio/globals'
 import { render } from '@testing-library/react'
 import App from '../App'
 
-describe('Vue Component Testing', () => {
+describe('React Component Testing', () => {
   it('increments value on click', async () => {
     // The render method returns a collection of utilities to query your component.
     const { getByText } = render(<App />)

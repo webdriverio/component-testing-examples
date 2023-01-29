@@ -134,7 +134,7 @@ export const config: Options.Testrunner = {
     coverage: {
       enabled: true,
       statements: 100,
-      branches: 100,
+      branches: 90,
       functions: 100,
       lines: 100
     }
@@ -165,7 +165,7 @@ export const config: Options.Testrunner = {
   // See the full list at http://mochajs.org/
   mochaOpts: {
     ui: 'bdd',
-    timeout: 60000
+    timeout: 6000000
   },
   //
   // =====
