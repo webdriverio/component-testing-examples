@@ -130,7 +130,14 @@ export const config: Options.Testrunner = {
   //
   // WebdriverIO Runner:
   runner: ['browser', {
-    preset: 'react'
+    preset: 'react',
+    coverage: {
+      enabled: true,
+      statements: 100,
+      branches: 100,
+      functions: 100,
+      lines: 100
+    }
   }],
   // Framework you want to run your specs with.
   // The following are supported: Mocha, Jasmine, and Cucumber

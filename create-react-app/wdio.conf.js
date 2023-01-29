@@ -28,7 +28,14 @@ export const config = {
   // ======
   // WebdriverIO supports running e2e tests as well as unit and component tests.
   runner: ['browser', {
-    preset: 'react'
+    preset: 'react',
+    coverage: {
+      enabled: true,
+      statements: 100,
+      branches: 100,
+      functions: 100,
+      lines: 100
+    }
   }],
   //
   // ============

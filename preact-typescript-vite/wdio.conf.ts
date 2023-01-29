@@ -150,7 +150,14 @@ export const config: Options.Testrunner = {
   // see also: https://webdriver.io/docs/dot-reporter
   reporters: ['spec'],
   runner: ['browser', {
-    preset: 'preact'
+    preset: 'preact',
+    coverage: {
+      enabled: true,
+      statements: 100,
+      branches: 100,
+      functions: 100,
+      lines: 100
+    }
   }],
   //
   // Options to be passed to Mocha.

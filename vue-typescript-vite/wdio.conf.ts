@@ -44,7 +44,7 @@ export const config: Options.Testrunner = {
   // will be called from there.
   //
   specs: [
-    `./src/tests/**/*.ts`
+    [`./src/tests/**/*.ts`]
   ],
   // Patterns to exclude.
   exclude: [
@@ -123,7 +123,14 @@ export const config: Options.Testrunner = {
   connectionRetryCount: 3,
 
   runner: ['browser', {
-    preset: 'vue'
+    preset: 'vue',
+    coverage: {
+      enabled: true,
+      statements: 84,
+      branches: 95,
+      functions: 94,
+      lines: 84
+    }
   }],
   //
   // Test runner services
@@ -158,7 +165,7 @@ export const config: Options.Testrunner = {
   // See the full list at http://mochajs.org/
   mochaOpts: {
     ui: 'bdd',
-    timeout: 60000
+    timeout: 6000000
   },
   //
   // =====

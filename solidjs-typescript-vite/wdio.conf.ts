@@ -53,11 +53,16 @@ export const config: Options.Testrunner = {
   // Runner
   // ======
   // WebdriverIO supports running e2e tests as well as unit and component tests.
-  runner: [
-    'browser', {
-      viteConfig: viteConfig as UserConfig
+  runner: ['browser', {
+    viteConfig: viteConfig as UserConfig,
+    coverage: {
+      enabled: true,
+      statements: 100,
+      branches: 43,
+      functions: 85,
+      lines: 100
     }
-  ],
+  }],
   //
   // ============
   // Capabilities
