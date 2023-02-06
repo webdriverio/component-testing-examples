@@ -7,6 +7,7 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "cypress:run": "cypress run --component",
+    "playwright:run": "playwright test --config ./playwright.config.ts",
     "preview": "vite preview",
     "test": "vitest -c ./vitest.conf.ts",
     "test:ui": "vitest -c ./vitest.conf.ts --ui",

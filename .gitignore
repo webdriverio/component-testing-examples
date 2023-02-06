@@ -102,3 +102,6 @@ dist
 
 # TernJS port file
 .tern-port
+/framework-comparisons/test-results/
+/framework-comparisons/playwright-report/
+/framework-comparisons/playwright/.cache/

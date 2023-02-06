@@ -40,7 +40,7 @@ const Overlay: React.FC = () => {
     return <div style={{
         position: 'absolute',
         top: 0,
-        width: '100px',
+        width: '200px',
         height: '100px',
         backgroundColor: 'red'
     }}>
