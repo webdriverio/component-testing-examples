@@ -32,4 +32,11 @@ describe('Card Component', () => {
         fireEvent.click(getByLabelText('counter'))
         expect(getByText('count is 1')).toBeInTheDocument()
     })
+
+    it('can still be clicked with an out of bounce side effect', () => {
+        const { getByText, getByLabelText } = render(<Card sideEffect={SideEffect.OUT_OF_BOUNDS} />)
+        expect(getByText('count is 0')).toBeInTheDocument()
+        fireEvent.click(getByLabelText('counter'))
+        expect(getByText('count is 1')).toBeInTheDocument()
+    })
 })

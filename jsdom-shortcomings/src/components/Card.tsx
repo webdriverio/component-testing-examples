@@ -3,7 +3,8 @@ import React, { useState } from 'react'
 export enum SideEffect {
     ZERO_HEIGHT = 1,
     INVISIBLE,
-    OVERLAYING_ELEMENT
+    OVERLAYING_ELEMENT,
+    OUT_OF_BOUNDS
 }
 
 interface Props {
@@ -16,7 +17,9 @@ export const Card: React.FC<Props> = (props?: Props) => {
         ? { visibility: 'hidden' } as any
         : props?.sideEffect === SideEffect.ZERO_HEIGHT
             ? { padding: 0, height: 0, fontSize: 0, border: 0 }
-            : {}
+            : props?.sideEffect === SideEffect.OUT_OF_BOUNDS
+                ? { position: 'absolute', left: '10000px' }
+                : {}
 
     return <div className="card">
         <button

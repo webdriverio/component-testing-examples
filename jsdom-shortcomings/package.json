@@ -7,9 +7,9 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "test": "vitest",
-    "test:ui": "vitest --ui",
-    "coverage": "vitest run --coverage",
+    "test": "vitest -c ./vitest.conf.ts",
+    "test:ui": "vitest -c ./vitest.conf.ts --ui",
+    "coverage": "vitest run -c ./vitest.conf.ts --coverage",
     "wdio": "wdio run ./wdio.conf.ts"
   },
   "dependencies": {

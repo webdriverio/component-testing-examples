@@ -14,7 +14,7 @@ describe('Card Component', () => {
         await expect($container).toHaveTextContaining('count is 1')
     })
 
-    it('can still be clicked with visibility side effect', async () => {
+    it('fails because element is not visible', async () => {
         const { container } = render(<Card sideEffect={SideEffect.INVISIBLE} />)
 
         const $container = $(container)
@@ -29,7 +29,7 @@ describe('Card Component', () => {
         await expect($container).not.toHaveTextContaining('count is 1')
     })
 
-    it('can still be clicked with zero height side effect', async () => {
+    it('fails because element has zero height', async () => {
         const { container } = render(<Card sideEffect={SideEffect.ZERO_HEIGHT} />)
 
         const $container = $(container)
@@ -41,13 +41,34 @@ describe('Card Component', () => {
         await expect($container).toHaveTextContaining('count is 1')
     })
 
-    it('can still be clicked with an overlaying element side effect', async () => {
+    it('fails because another element is laying over the button', async () => {
         const { container } = render(<Card sideEffect={SideEffect.OVERLAYING_ELEMENT} />)
 
         const $container = $(container)
         await expect($container).toHaveTextContaining('count is 0')
         /**
-         * fails due to " element click intercepted: Element <button aria-label="counter">...</button> is not clickable at point (68, 402). Other element would receive the click: <div style="...">...</div>" error
+         * fails due to "element click intercepted: Element <button aria-label="counter">...</button> is not clickable at point (68, 402). Other element would receive the click: <div style="...">...</div>" error
+         */
+        await $container.$('button').click()
+        await expect($container).toHaveTextContaining('count is 1')
+    })
+
+    it('fails because the element is outside the viewport', async () => {
+        const { container } = render(<Card sideEffect={SideEffect.OUT_OF_BOUNDS} />)
+        const $container = $(container)
+
+        /**
+         * verify DOM node exists
+         */
+        expect(await $container.getHTML()).toContain('count is 0')
+
+        /**
+         * this fails nonetheless as element is out of viewport
+         */
+        await expect($container).not.toHaveTextContaining('count is 0')
+
+        /**
+         * fails due to "element not interactable" error
          */
         await $container.$('button').click()
         await expect($container).toHaveTextContaining('count is 1')

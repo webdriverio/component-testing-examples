@@ -36,6 +36,7 @@
 .card {
   padding: 2em;
   position: relative;
+  overflow: hidden;
 }
 
 .read-the-docs {
