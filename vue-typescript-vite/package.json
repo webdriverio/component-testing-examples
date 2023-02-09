@@ -17,7 +17,7 @@
     "@types/mocha": "^10.0.1",
     "@vitejs/plugin-vue": "^4.0.0",
     "@vue/compiler-dom": "^3.2.47",
-    "@wdio/browser-runner": "^8.3.6",
+    "@wdio/browser-runner": "^8.3.7",
     "@wdio/cli": "^8.3.5",
     "@wdio/mocha-framework": "^8.3.0",
     "@wdio/spec-reporter": "^8.3.0",

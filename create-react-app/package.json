@@ -6,7 +6,7 @@
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^14.4.3",
-    "@wdio/browser-runner": "^8.3.6",
+    "@wdio/browser-runner": "^8.3.7",
     "@wdio/cli": "^8.3.5",
     "@wdio/mocha-framework": "^8.3.0",
     "@wdio/spec-reporter": "^8.3.0",

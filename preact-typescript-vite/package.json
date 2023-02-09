@@ -10,13 +10,13 @@
     "wdio": "wdio run ./wdio.conf.ts"
   },
   "dependencies": {
-    "preact": "^10.12.0"
+    "preact": "^10.12.1"
   },
   "devDependencies": {
     "@preact/preset-vite": "^2.5.0",
     "@testing-library/preact": "^3.2.3",
     "@types/mocha": "^10.0.1",
-    "@wdio/browser-runner": "^8.3.6",
+    "@wdio/browser-runner": "^8.3.7",
     "@wdio/cli": "^8.3.5",
     "@wdio/globals": "^8.3.5",
     "@wdio/mocha-framework": "^8.3.0",
