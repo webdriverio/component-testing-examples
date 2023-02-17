@@ -21,7 +21,7 @@ export const Card: React.FC<Props> = (props?: Props) => {
                 ? { position: 'absolute', left: '10000px' }
                 : {}
 
-    return <div className="card">
+    return <div className="testbed">
         <button
             aria-label="counter"
             onClick={() => setCount((count) => count + 1)}
