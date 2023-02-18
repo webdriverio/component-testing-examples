@@ -25,16 +25,15 @@ In this scenario we attempt to click on a button with different side effects.
 | Element is not visible as it is positioned outside of the viewport | ❌ test passes | ✔️ test fails | ❌ test passes*** | ❌ test passes*** |
 
 ### Set Input Text
-
-In this scenario we set a value to an input text element.
+In this scenario, we set a value to an input text element.
 
 | Side Effect | Vitest + JSDOM | WebdriverIO | Cypress | Playwright |
 | ---------- | -------------- | ----------- | ------- | ---------- |
-| Element is disabled | ❌ test passes | tbd | tbd | tbd |
-| Element is not visible due to `visibility: hidden` CSS attribute | ❌ test passes | tbd | tbd | tbd |
-| Element is not visible due to CSS attributes that set the element to have a height of 0px | ❌ test passes | tbd | tbd | tbd |
-| Element is not interactable due to another overlaying element | ❌ test passes | tbd | tbd | tbd |
-| Element is not visible as it is positioned outside of the viewport | ❌ test passes | tbd | tbd | tbd |
+| Element is disabled | ❌ test passes | ✔️ test fails | ✔️ test fails | ✔️ test fails |
+| Element is not visible due to `visibility: hidden` CSS attribute | ❌ test passes | ✔️ test fails | ✔️ test fails* | ✔️ test fails* |
+| Element is not visible due to CSS attributes that set the element to have a height of 0px | ❌ test passes | ✔️ test fails | ✔️ test fails* | ✔️ test fails* |
+| Element is not interactable due to another overlaying element | ❌ test passes | ❌ test passes | ✔️ test fails | ❌ test passes |
+| Element is not visible as it is positioned outside of the viewport | ❌ test passes | ✔️ test fails | ✔️ test fails | ❌ test passes*** |
 
 ---
 

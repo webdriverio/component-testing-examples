@@ -19,6 +19,8 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "@playwright/experimental-ct-react": "^1.30.0",
+    "@playwright/test": "^1.30.0",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@types/react": "^18.0.27",
@@ -31,6 +33,7 @@
     "chromedriver": "^109.0.0",
     "cypress": "^12.5.1",
     "jsdom": "^21.1.0",
+    "playwright": "^1.30.0",
     "ts-node": "^10.9.1",
     "typescript": "^4.9.5",
     "vite": "^4.1.0",

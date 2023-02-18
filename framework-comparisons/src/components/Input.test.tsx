@@ -29,7 +29,7 @@ describe('Input Component', () => {
     expect(input.value).toBe('Hello World')
   })
 
-  it('can not set value of input if input has invisible', () => {
+  it('can not set value of input if input is invisible', () => {
     const { getByPlaceholderText } = render(<Input sideEffect={SideEffect.INVISIBLE} />)
     const input = getByPlaceholderText('username') as HTMLInputElement
     expect(input.value).toBe('')
