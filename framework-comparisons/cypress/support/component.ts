@@ -1,4 +1,6 @@
 import { mount } from 'cypress/react18'
+import 'cypress-real-events';
+
 // Ensure global app styles are loaded:
 import '../../src/index.css';
 
