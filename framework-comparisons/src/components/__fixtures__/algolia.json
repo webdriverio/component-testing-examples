@@ -1,0 +1,482 @@
+{
+  "results": [
+    {
+      "hits": [
+        {
+          "name": "Samsung - Galaxy S7 32GB - Black Onyx (Verizon)",
+          "description": "Combine incredible water resistance with a great screen and a powerful processor, and you get the Samsung Galaxy S7. It's built to withstand dunks in water for up to 30 minutes, and then you can wipe it off and get playing with a 5.1-inch touchscreen. The Samsung Galaxy S7 enjoys a quad-core processor for ultra-fast responsiveness.",
+          "brand": "Samsung",
+          "categories": [
+            "Cell Phones",
+            "All Cell Phones with Plans"
+          ],
+          "price": 679.99,
+          "image": "https://cdn-demo.algolia.com/bestbuy-0118/4893100_sb.jpg",
+          "popularity": 21218,
+          "objectID": "131280360",
+          "_highlightResult": {
+            "name": {
+              "value": "<ais-highlight-0000000000>S</ais-highlight-0000000000>amsung - Galaxy <ais-highlight-0000000000>S</ais-highlight-0000000000>7 32GB - Black Onyx (Verizon)",
+              "matchLevel": "full",
+              "fullyHighlighted": false,
+              "matchedWords": [
+                "s"
+              ]
+            },
+            "description": {
+              "value": "Combine incredible water resistance with a great <ais-highlight-0000000000>s</ais-highlight-0000000000>creen and a powerful processor, and you get the <ais-highlight-0000000000>S</ais-highlight-0000000000>amsung Galaxy <ais-highlight-0000000000>S</ais-highlight-0000000000>7. It'<ais-highlight-0000000000>s</ais-highlight-0000000000> built to withstand dunks in water for up to 30 minutes, and then you can wipe it off and get playing with a 5.1-inch touchscreen. The <ais-highlight-0000000000>S</ais-highlight-0000000000>amsung Galaxy <ais-highlight-0000000000>S</ais-highlight-0000000000>7 enjoys a quad-core processor for ultra-fast responsiveness.",
+              "matchLevel": "full",
+              "fullyHighlighted": false,
+              "matchedWords": [
+                "s"
+              ]
+            },
+            "brand": {
+              "value": "<ais-highlight-0000000000>S</ais-highlight-0000000000>amsung",
+              "matchLevel": "full",
+              "fullyHighlighted": false,
+              "matchedWords": [
+                "s"
+              ]
+            },
+            "categories": [
+              {
+                "value": "Cell Phones",
+                "matchLevel": "none",
+                "matchedWords": []
+              },
+              {
+                "value": "All Cell Phones with Plans",
+                "matchLevel": "none",
+                "matchedWords": []
+              }
+            ]
+          }
+        },
+        {
+          "name": "Samsung - Galaxy J3 (2016) 4G LTE with 16GB Memory Cell Phone (Unlocked) - White",
+          "description": "Work, rest and play with this Samsung Galaxy J3 smartphone. A 5-inch touchscreen delivers easy responses whether you are browsing online or typing a text, and the AMOLED technology delivers great visuals even when it's bright. A powerful quad-core processor lets you play games, study or use apps on this Samsung Galaxy J3 smartphone.",
+          "brand": "Samsung",
+          "categories": [
+            "Cell Phones",
+            "Unlocked Cell Phones",
+            "All Unlocked Cell Phones"
+          ],
+          "price": 179.99,
+          "image": "https://cdn-demo.algolia.com/bestbuy-0118/5320800_sb.jpg",
+          "popularity": 21204,
+          "objectID": "131280390",
+          "_highlightResult": {
+            "name": {
+              "value": "<ais-highlight-0000000000>S</ais-highlight-0000000000>amsung - Galaxy J3 (2016) 4G LTE with 16GB Memory Cell Phone (Unlocked) - White",
+              "matchLevel": "full",
+              "fullyHighlighted": false,
+              "matchedWords": [
+                "s"
+              ]
+            },
+            "description": {
+              "value": "Work, rest and play with this <ais-highlight-0000000000>S</ais-highlight-0000000000>amsung Galaxy J3 <ais-highlight-0000000000>s</ais-highlight-0000000000>martphone. A 5-inch touchscreen delivers easy responses whether you are browsing online or typing a text, and the AMOLED technology delivers great visuals even when it'<ais-highlight-0000000000>s</ais-highlight-0000000000> bright. A powerful quad-core processor lets you play games, <ais-highlight-0000000000>s</ais-highlight-0000000000>tudy or use apps on this <ais-highlight-0000000000>S</ais-highlight-0000000000>amsung Galaxy J3 <ais-highlight-0000000000>s</ais-highlight-0000000000>martphone.",
+              "matchLevel": "full",
+              "fullyHighlighted": false,
+              "matchedWords": [
+                "s"
+              ]
+            },
+            "brand": {
+              "value": "<ais-highlight-0000000000>S</ais-highlight-0000000000>amsung",
+              "matchLevel": "full",
+              "fullyHighlighted": false,
+              "matchedWords": [
+                "s"
+              ]
+            },
+            "categories": [
+              {
+                "value": "Cell Phones",
+                "matchLevel": "none",
+                "matchedWords": []
+              },
+              {
+                "value": "Unlocked Cell Phones",
+                "matchLevel": "none",
+                "matchedWords": []
+              },
+              {
+                "value": "All Unlocked Cell Phones",
+                "matchLevel": "none",
+                "matchedWords": []
+              }
+            ]
+          }
+        },
+        {
+          "name": "Simple Mobile - Samsung GALAXY On5 4G LTE with 8GB Memory Prepaid Cell Phone - Black",
+          "description": "Stay in touch on the run with this Simple Mobile Samsung Galaxy On5 smartphone. Front- and rear-facing cameras let you connect with friends or share a selfie, and the Android 6.0 Marshmallow operating system keeps your apps running smoothly. A micro SD card slot lets you add up to 128GB of storage on this Simple Mobile Samsung Galaxy On5 smartphone.",
+          "brand": "Simple Mobile",
+          "categories": [
+            "Cell Phones",
+            "Prepaid Phones",
+            "All Prepaid Phones"
+          ],
+          "price": 79.99,
+          "image": "https://cdn-demo.algolia.com/bestbuy-0118/5581019_sb.jpg",
+          "popularity": 21109,
+          "objectID": "131280450",
+          "_highlightResult": {
+            "name": {
+              "value": "<ais-highlight-0000000000>S</ais-highlight-0000000000>imple Mobile - <ais-highlight-0000000000>S</ais-highlight-0000000000>amsung GALAXY On5 4G LTE with 8GB Memory Prepaid Cell Phone - Black",
+              "matchLevel": "full",
+              "fullyHighlighted": false,
+              "matchedWords": [
+                "s"
+              ]
+            },
+            "description": {
+              "value": "<ais-highlight-0000000000>S</ais-highlight-0000000000>tay in touch on the run with this <ais-highlight-0000000000>S</ais-highlight-0000000000>imple Mobile <ais-highlight-0000000000>S</ais-highlight-0000000000>amsung Galaxy On5 <ais-highlight-0000000000>s</ais-highlight-0000000000>martphone. Front- and rear-facing cameras let you connect with friends or <ais-highlight-0000000000>s</ais-highlight-0000000000>hare a <ais-highlight-0000000000>s</ais-highlight-0000000000>elfie, and the Android 6.0 Marshmallow operating <ais-highlight-0000000000>s</ais-highlight-0000000000>ystem keeps your apps running <ais-highlight-0000000000>s</ais-highlight-0000000000>moothly. A micro <ais-highlight-0000000000>S</ais-highlight-0000000000>D card <ais-highlight-0000000000>s</ais-highlight-0000000000>lot lets you add up to 128GB of <ais-highlight-0000000000>s</ais-highlight-0000000000>torage on this <ais-highlight-0000000000>S</ais-highlight-0000000000>imple Mobile <ais-highlight-0000000000>S</ais-highlight-0000000000>amsung Galaxy On5 <ais-highlight-0000000000>s</ais-highlight-0000000000>martphone.",
+              "matchLevel": "full",
+              "fullyHighlighted": false,
+              "matchedWords": [
+                "s"
+              ]
+            },
+            "brand": {
+              "value": "<ais-highlight-0000000000>S</ais-highlight-0000000000>imple Mobile",
+              "matchLevel": "full",
+              "fullyHighlighted": false,
+              "matchedWords": [
+                "s"
+              ]
+            },
+            "categories": [
+              {
+                "value": "Cell Phones",
+                "matchLevel": "none",
+                "matchedWords": []
+              },
+              {
+                "value": "Prepaid Phones",
+                "matchLevel": "none",
+                "matchedWords": []
+              },
+              {
+                "value": "All Prepaid Phones",
+                "matchLevel": "none",
+                "matchedWords": []
+              }
+            ]
+          }
+        },
+        {
+          "name": "Samsung - Galaxy S7 edge 32GB - Blue Coral (Verizon)",
+          "description": "Stay on top of your social media with this Samsung Galaxy S7 edge, which features a bold coral-blue back for fashionable function. The curved 5.1-inch edge-to-edge screen offers ample viewing of contacts or texts. This Samsung Galaxy S7 edge is both water- and dust-resistant for reliable use wherever you go.",
+          "brand": "Samsung",
+          "categories": [
+            "Cell Phones",
+            "All Cell Phones with Plans"
+          ],
+          "price": 779.99,
+          "image": "https://cdn-demo.algolia.com/bestbuy-0118/5705352_sb.jpg",
+          "popularity": 21019,
+          "objectID": "131280490",
+          "_highlightResult": {
+            "name": {
+              "value": "<ais-highlight-0000000000>S</ais-highlight-0000000000>amsung - Galaxy <ais-highlight-0000000000>S</ais-highlight-0000000000>7 edge 32GB - Blue Coral (Verizon)",
+              "matchLevel": "full",
+              "fullyHighlighted": false,
+              "matchedWords": [
+                "s"
+              ]
+            },
+            "description": {
+              "value": "<ais-highlight-0000000000>S</ais-highlight-0000000000>tay on top of your <ais-highlight-0000000000>s</ais-highlight-0000000000>ocial media with this <ais-highlight-0000000000>S</ais-highlight-0000000000>amsung Galaxy <ais-highlight-0000000000>S</ais-highlight-0000000000>7 edge, which features a bold coral-blue back for fashionable function. The curved 5.1-inch edge-to-edge <ais-highlight-0000000000>s</ais-highlight-0000000000>creen offers ample viewing of contacts or texts. This <ais-highlight-0000000000>S</ais-highlight-0000000000>amsung Galaxy <ais-highlight-0000000000>S</ais-highlight-0000000000>7 edge is both water- and dust-resistant for reliable use wherever you go.",
+              "matchLevel": "full",
+              "fullyHighlighted": false,
+              "matchedWords": [
+                "s"
+              ]
+            },
+            "brand": {
+              "value": "<ais-highlight-0000000000>S</ais-highlight-0000000000>amsung",
+              "matchLevel": "full",
+              "fullyHighlighted": false,
+              "matchedWords": [
+                "s"
+              ]
+            },
+            "categories": [
+              {
+                "value": "Cell Phones",
+                "matchLevel": "none",
+                "matchedWords": []
+              },
+              {
+                "value": "All Cell Phones with Plans",
+                "matchLevel": "none",
+                "matchedWords": []
+              }
+            ]
+          }
+        },
+        {
+          "name": "Samsung - Galaxy S7 32GB - Gold Platinum (Verizon)",
+          "description": "Combine incredible water resistance with a great screen and a powerful processor, and you get the Samsung Galaxy S7. It's built to withstand dunks in water for up to 30 minutes, and then you can wipe it off and get playing with a 5.1-inch touchscreen. The Samsung Galaxy S7 enjoys a quad-core processor for ultra-fast responsiveness.",
+          "brand": "Samsung",
+          "categories": [
+            "Cell Phones",
+            "All Cell Phones with Plans"
+          ],
+          "price": 679.99,
+          "image": "https://cdn-demo.algolia.com/bestbuy-0118/4893300_sb.jpg",
+          "popularity": 21008,
+          "objectID": "131280500",
+          "_highlightResult": {
+            "name": {
+              "value": "<ais-highlight-0000000000>S</ais-highlight-0000000000>amsung - Galaxy <ais-highlight-0000000000>S</ais-highlight-0000000000>7 32GB - Gold Platinum (Verizon)",
+              "matchLevel": "full",
+              "fullyHighlighted": false,
+              "matchedWords": [
+                "s"
+              ]
+            },
+            "description": {
+              "value": "Combine incredible water resistance with a great <ais-highlight-0000000000>s</ais-highlight-0000000000>creen and a powerful processor, and you get the <ais-highlight-0000000000>S</ais-highlight-0000000000>amsung Galaxy <ais-highlight-0000000000>S</ais-highlight-0000000000>7. It'<ais-highlight-0000000000>s</ais-highlight-0000000000> built to withstand dunks in water for up to 30 minutes, and then you can wipe it off and get playing with a 5.1-inch touchscreen. The <ais-highlight-0000000000>S</ais-highlight-0000000000>amsung Galaxy <ais-highlight-0000000000>S</ais-highlight-0000000000>7 enjoys a quad-core processor for ultra-fast responsiveness.",
+              "matchLevel": "full",
+              "fullyHighlighted": false,
+              "matchedWords": [
+                "s"
+              ]
+            },
+            "brand": {
+              "value": "<ais-highlight-0000000000>S</ais-highlight-0000000000>amsung",
+              "matchLevel": "full",
+              "fullyHighlighted": false,
+              "matchedWords": [
+                "s"
+              ]
+            },
+            "categories": [
+              {
+                "value": "Cell Phones",
+                "matchLevel": "none",
+                "matchedWords": []
+              },
+              {
+                "value": "All Cell Phones with Plans",
+                "matchLevel": "none",
+                "matchedWords": []
+              }
+            ]
+          }
+        },
+        {
+          "name": "Samsung - Galaxy S7 32GB - Black Onyx (AT&T)",
+          "description": "Enjoy the exceptional display and all-day power of the Samsung Galaxy S7 smartphone. A 12MP rear-facing camera and 5MP front-facing camera capture memories as they happen, and the 5.1-inch display uses dual-pixel technology to display them with superior clarity. The Samsung Galaxy S7 smartphone features durable housing and a water-resistant design.",
+          "brand": "Samsung",
+          "categories": [
+            "Cell Phones",
+            "All Cell Phones with Plans"
+          ],
+          "price": 694.99,
+          "image": "https://cdn-demo.algolia.com/bestbuy-0118/4897502_sb.jpg",
+          "popularity": 20924,
+          "objectID": "131280520",
+          "_highlightResult": {
+            "name": {
+              "value": "<ais-highlight-0000000000>S</ais-highlight-0000000000>amsung - Galaxy <ais-highlight-0000000000>S</ais-highlight-0000000000>7 32GB - Black Onyx (AT&T)",
+              "matchLevel": "full",
+              "fullyHighlighted": false,
+              "matchedWords": [
+                "s"
+              ]
+            },
+            "description": {
+              "value": "Enjoy the exceptional display and all-day power of the <ais-highlight-0000000000>S</ais-highlight-0000000000>amsung Galaxy <ais-highlight-0000000000>S</ais-highlight-0000000000>7 <ais-highlight-0000000000>s</ais-highlight-0000000000>martphone. A 12MP rear-facing camera and 5MP front-facing camera capture memories as they happen, and the 5.1-inch display uses dual-pixel technology to display them with <ais-highlight-0000000000>s</ais-highlight-0000000000>uperior clarity. The <ais-highlight-0000000000>S</ais-highlight-0000000000>amsung Galaxy <ais-highlight-0000000000>S</ais-highlight-0000000000>7 <ais-highlight-0000000000>s</ais-highlight-0000000000>martphone features durable housing and a water-resistant design.",
+              "matchLevel": "full",
+              "fullyHighlighted": false,
+              "matchedWords": [
+                "s"
+              ]
+            },
+            "brand": {
+              "value": "<ais-highlight-0000000000>S</ais-highlight-0000000000>amsung",
+              "matchLevel": "full",
+              "fullyHighlighted": false,
+              "matchedWords": [
+                "s"
+              ]
+            },
+            "categories": [
+              {
+                "value": "Cell Phones",
+                "matchLevel": "none",
+                "matchedWords": []
+              },
+              {
+                "value": "All Cell Phones with Plans",
+                "matchLevel": "none",
+                "matchedWords": []
+              }
+            ]
+          }
+        },
+        {
+          "name": "Samsung - Galaxy S7 32GB - Black Onyx (Sprint)",
+          "description": "Combine incredible water resistance with a great screen and a powerful processor, and you get the Samsung Galaxy S7. It's built to withstand dunks in water for up to 30 minutes, and then you can wipe it off and get playing with a 5.1-inch touchscreen. The Samsung Galaxy S7 enjoys a quad-core processor for ultra-fast responsiveness.",
+          "brand": "Samsung",
+          "categories": [
+            "Cell Phones",
+            "All Cell Phones with Plans"
+          ],
+          "price": 699.99,
+          "image": "https://cdn-demo.algolia.com/bestbuy-0118/4894100_sb.jpg",
+          "popularity": 20909,
+          "objectID": "131280530",
+          "_highlightResult": {
+            "name": {
+              "value": "<ais-highlight-0000000000>S</ais-highlight-0000000000>amsung - Galaxy <ais-highlight-0000000000>S</ais-highlight-0000000000>7 32GB - Black Onyx (<ais-highlight-0000000000>S</ais-highlight-0000000000>print)",
+              "matchLevel": "full",
+              "fullyHighlighted": false,
+              "matchedWords": [
+                "s"
+              ]
+            },
+            "description": {
+              "value": "Combine incredible water resistance with a great <ais-highlight-0000000000>s</ais-highlight-0000000000>creen and a powerful processor, and you get the <ais-highlight-0000000000>S</ais-highlight-0000000000>amsung Galaxy <ais-highlight-0000000000>S</ais-highlight-0000000000>7. It'<ais-highlight-0000000000>s</ais-highlight-0000000000> built to withstand dunks in water for up to 30 minutes, and then you can wipe it off and get playing with a 5.1-inch touchscreen. The <ais-highlight-0000000000>S</ais-highlight-0000000000>amsung Galaxy <ais-highlight-0000000000>S</ais-highlight-0000000000>7 enjoys a quad-core processor for ultra-fast responsiveness.",
+              "matchLevel": "full",
+              "fullyHighlighted": false,
+              "matchedWords": [
+                "s"
+              ]
+            },
+            "brand": {
+              "value": "<ais-highlight-0000000000>S</ais-highlight-0000000000>amsung",
+              "matchLevel": "full",
+              "fullyHighlighted": false,
+              "matchedWords": [
+                "s"
+              ]
+            },
+            "categories": [
+              {
+                "value": "Cell Phones",
+                "matchLevel": "none",
+                "matchedWords": []
+              },
+              {
+                "value": "All Cell Phones with Plans",
+                "matchLevel": "none",
+                "matchedWords": []
+              }
+            ]
+          }
+        },
+        {
+          "name": "Samsung - Galaxy S7 edge 4G LTE with 32GB Memory Cell Phone (Unlocked) - Titanium Silver",
+          "description": "Use this unlocked Samsung Galaxy S7 Edge phone to stay in touch with friends and family. Its defense-grade KNOX platform provides enhanced security, and it's IP6s water-resistant for protection against spills. A 12-megapixel camera captures quality pictures, and the 3600 mAh battery provides fast charging. Store plenty of information with the expandable 200GB memory of this Samsung Galaxy phone.",
+          "brand": "Samsung",
+          "categories": [
+            "Cell Phones",
+            "Unlocked Cell Phones",
+            "All Unlocked Cell Phones"
+          ],
+          "price": 769.99,
+          "image": "https://cdn-demo.algolia.com/bestbuy-0118/5286507_sb.jpg",
+          "popularity": 20850,
+          "objectID": "131280550",
+          "_highlightResult": {
+            "name": {
+              "value": "<ais-highlight-0000000000>S</ais-highlight-0000000000>amsung - Galaxy <ais-highlight-0000000000>S</ais-highlight-0000000000>7 edge 4G LTE with 32GB Memory Cell Phone (Unlocked) - Titanium <ais-highlight-0000000000>S</ais-highlight-0000000000>ilver",
+              "matchLevel": "full",
+              "fullyHighlighted": false,
+              "matchedWords": [
+                "s"
+              ]
+            },
+            "description": {
+              "value": "Use this unlocked <ais-highlight-0000000000>S</ais-highlight-0000000000>amsung Galaxy <ais-highlight-0000000000>S</ais-highlight-0000000000>7 Edge phone to <ais-highlight-0000000000>s</ais-highlight-0000000000>tay in touch with friends and family. Its defense-grade KNOX platform provides enhanced <ais-highlight-0000000000>s</ais-highlight-0000000000>ecurity, and it'<ais-highlight-0000000000>s</ais-highlight-0000000000> IP6s water-resistant for protection against <ais-highlight-0000000000>s</ais-highlight-0000000000>pills. A 12-megapixel camera captures quality pictures, and the 3600 mAh battery provides fast charging. <ais-highlight-0000000000>S</ais-highlight-0000000000>tore plenty of information with the expandable 200GB memory of this <ais-highlight-0000000000>S</ais-highlight-0000000000>amsung Galaxy phone.",
+              "matchLevel": "full",
+              "fullyHighlighted": false,
+              "matchedWords": [
+                "s"
+              ]
+            },
+            "brand": {
+              "value": "<ais-highlight-0000000000>S</ais-highlight-0000000000>amsung",
+              "matchLevel": "full",
+              "fullyHighlighted": false,
+              "matchedWords": [
+                "s"
+              ]
+            },
+            "categories": [
+              {
+                "value": "Cell Phones",
+                "matchLevel": "none",
+                "matchedWords": []
+              },
+              {
+                "value": "Unlocked Cell Phones",
+                "matchLevel": "none",
+                "matchedWords": []
+              },
+              {
+                "value": "All Unlocked Cell Phones",
+                "matchLevel": "none",
+                "matchedWords": []
+              }
+            ]
+          }
+        }
+      ],
+      "nbHits": 3125,
+      "page": 0,
+      "nbPages": 125,
+      "hitsPerPage": 8,
+      "facets": {
+        "brand": {
+          "Incipio": 608,
+          "OtterBox": 382,
+          "Insignia™": 346,
+          "Apple": 326,
+          "Samsung": 292,
+          "Speck": 292,
+          "kate spade new york": 206,
+          "Spigen": 188,
+          "mophie": 184,
+          "ZAGG": 168
+        }
+      },
+      "exhaustiveFacetsCount": false,
+      "exhaustiveNbHits": true,
+      "exhaustiveTypo": true,
+      "exhaustive": {
+        "facetsCount": false,
+        "nbHits": true,
+        "typo": true
+      },
+      "query": "s",
+      "params": "highlightPreTag=%3Cais-highlight-0000000000%3E&highlightPostTag=%3C%2Fais-highlight-0000000000%3E&maxValuesPerFacet=10&hitsPerPage=8&query=s&page=0&facets=%5B%22brand%22%5D&tagFilters=",
+      "index": "demo_ecommerce",
+      "renderingContent": {},
+      "processingTimeMS": 4,
+      "processingTimingsMS": {
+        "fetch": {
+          "scanning": 1,
+          "total": 2
+        },
+        "getIdx": {
+          "load": {
+            "total": 1
+          },
+          "total": 1
+        },
+        "request": {
+          "roundTrip": 25
+        },
+        "total": 4
+      },
+      "serverTimeMS": 4
+    }
+  ]
+}

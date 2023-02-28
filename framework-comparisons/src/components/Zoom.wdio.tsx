@@ -6,7 +6,7 @@ import { Zoom } from '../components/Zoom'
 import '../App.css'
 
 describe('Zoom Component', () => {
-  it.skip('can zoom in/out via scrolling', async () => {
+  it('can zoom in/out via scrolling', async () => {
     const { container } = render(<Zoom />)
     const $container = await $(container)
 
