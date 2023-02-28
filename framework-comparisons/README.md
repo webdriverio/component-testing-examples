@@ -55,12 +55,10 @@ In this scenario, we are going through various mocking scenarios.
 | -------- | -------------- | ----------- | ------- | ---------- |
 | Mocking of dependencies: Algolia InstantSearch Client | ✔️ test passes | ✔️ test passes | ❌ not supported***** | ❌ not supported***** |
 
-* https://github.com/microsoft/playwright/issues/14572
-
 ---
 
 `*` The framework is still able to determine the element's text, which would be impossible for a user because the element is not visible<br />
 `**` See *. Theoretically, elements can be transparent, which would allow users to see the elements that are behind them. In this case, however, the overlaying element has a red background color, so should not allow reading the text.<br />
-`***` Some frameworks have magic hooks that ensure that elements are within the viewport. While this stabilizes tests, it can make them less reliable, as the attempt to move them into the viewport is not what users would do in reality.
-`****` No general support for this interaction
+`***` Some frameworks have magic hooks that ensure that elements are within the viewport. While this stabilizes tests, it can make them less reliable, as the attempt to move them into the viewport is not what users would do in reality.<br />
+`****` No general support for this interaction<br />
 `*****` Issues was filed, see [cypress-io/cypress#16741](https://github.com/cypress-io/cypress/discussions/16741) or [microsoft/playwright#14572](https://github.com/microsoft/playwright/issues/14572)
