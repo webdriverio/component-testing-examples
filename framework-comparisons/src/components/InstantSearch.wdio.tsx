@@ -19,6 +19,10 @@ mock('algoliasearch/lite', () => ({
   })
 }))
 
+mock('../constants', () => ({
+  HEADING: 'mocked out'
+}))
+
 describe('InstantSearch Component', () => {
   it('works without making requests', async () => {
     // render component
@@ -40,6 +44,10 @@ describe('InstantSearch Component', () => {
     // can reset selection
     await $('.ais-ClearRefinements-button').click()
     await expect($('.ais-RefinementList-item')).toHaveText('Incipio 608')
-    await browser.debug()
+  })
+
+  it('can mock out indidivual file imports', async () => {
+    const { container } = render(<InstantSearchComponent />)
+    await expect($(container).$('h1')).toHaveText('mocked out')
   })
 })

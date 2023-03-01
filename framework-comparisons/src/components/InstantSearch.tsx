@@ -11,9 +11,9 @@ import {
   Configure,
 } from 'react-instantsearch-dom';
 import type { Hit } from 'react-instantsearch-core';
-import './InstantSearch.css';
 
-console.log(123, algoliasearch);
+import { HEADING } from '../constants'
+import './InstantSearch.css';
 
 const searchClient = algoliasearch(
   'appId',
@@ -24,7 +24,7 @@ export class InstantSearchComponent extends Component {
   render() {
     return (
       <div className="ais-InstantSearch">
-        <h1>React InstantSearch e-commerce demo</h1>
+        <h1>{HEADING}</h1>
         <InstantSearch indexName="demo_ecommerce" searchClient={searchClient}>
           <div className="left-panel">
             <ClearRefinements />

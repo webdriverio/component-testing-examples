@@ -7,15 +7,16 @@ const __dirname = url.fileURLToPath(new URL('.', import.meta.url))
 const root = path.resolve(__dirname, '..', '..')
 
 function exec (command, framework) {
+  const prefix = framework ? `[${framework}]: ` : ''
   const cwd = framework
     ? path.resolve(root, framework)
     : process.cwd()
 
   return new Promise((resolve, reject) => {
-    console.log(`▶️  [${framework}]: ${command}`);
+    console.log(`▶️  ${prefix}${command}`);
     const res = cp.exec(command, { cwd }, (err, stdout) => {
       if (err) return reject(err)
-      console.log(`[${framework}]: ${stdout}`);
+      console.log(prefix + stdout);
       return resolve()
     })
   })

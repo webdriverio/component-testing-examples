@@ -15,7 +15,7 @@
     "@testing-library/svelte": "^3.2.2",
     "@tsconfig/svelte": "^3.0.0",
     "@types/mocha": "^10.0.1",
-    "@wdio/browser-runner": "^8.5.1",
+    "@wdio/browser-runner": "^8.5.2",
     "@wdio/cli": "^8.5.1",
     "@wdio/globals": "^8.5.1",
     "@wdio/mocha-framework": "^8.4.0",

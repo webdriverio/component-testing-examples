@@ -54,6 +54,7 @@ In this scenario, we are going through various mocking scenarios.
 | Scenario | Vitest + JSDOM | WebdriverIO | Cypress | Playwright |
 | -------- | -------------- | ----------- | ------- | ---------- |
 | Mocking of dependencies: Algolia InstantSearch Client | ✔️ test passes | ✔️ test passes | ❌ not supported***** | ❌ not supported***** |
+| Mocking of file dependencies | ✔️ test passes | ✔️ test passes | ❌ not supported***** | ❌ not supported***** |
 
 ---
 

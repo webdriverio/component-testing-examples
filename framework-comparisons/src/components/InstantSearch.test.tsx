@@ -17,8 +17,12 @@ vi.mock('algoliasearch/lite', () => ({
   })
 }))
 
+vi.mock('../constants', () => ({
+  HEADING: 'mocked out'
+}))
+
 describe('Card Component', () => {
-  it('can be clicked without a side effect', async () => {
+  it('test component without making a request', async () => {
     const { debug, getByText, queryAllByRole, container } = render(<InstantSearchComponent />)
 
     // validate it finds items
@@ -39,5 +43,10 @@ describe('Card Component', () => {
     await act(() => fireEvent.click(queryAllByRole('button')[0]))
     expect(container.querySelector('.ais-RefinementList-labelText')!.textContent)
       .toBe('Incipio')
+  })
+
+  it('can mock out indidivual file imports', () => {
+    const { getByText } = render(<InstantSearchComponent />)
+    expect(getByText('mocked out')).toBeInTheDocument()
   })
 })
