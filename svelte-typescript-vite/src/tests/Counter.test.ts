@@ -16,7 +16,6 @@ describe('Svelte Component Testing', () => {
     await button.click()
     await button.click()
 
-    getByText('count is 2')
-    await expect($('button=count is 2')).toExist()
+    await expect($('button*=count is')).toHaveText('count is 2')
   })
 })
