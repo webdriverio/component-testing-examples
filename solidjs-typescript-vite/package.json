@@ -13,11 +13,11 @@
   "type": "module",
   "license": "MIT",
   "devDependencies": {
-    "@wdio/browser-runner": "^8.6.7",
-    "@wdio/cli": "^8.6.7",
-    "@wdio/mocha-framework": "^8.6.6",
-    "@wdio/sauce-service": "^8.6.7",
-    "@wdio/spec-reporter": "^8.6.6",
+    "@wdio/browser-runner": "^8.6.9",
+    "@wdio/cli": "^8.6.9",
+    "@wdio/mocha-framework": "^8.6.8",
+    "@wdio/sauce-service": "^8.6.9",
+    "@wdio/spec-reporter": "^8.6.8",
     "chromedriver": "^111.0.0",
     "solid-testing-library": "^0.5.0",
     "ts-node": "^10.9.1",
@@ -27,6 +27,6 @@
     "wdio-chromedriver-service": "^8.1.1"
   },
   "dependencies": {
-    "solid-js": "^1.6.15"
+    "solid-js": "^1.6.16"
   }
 }
