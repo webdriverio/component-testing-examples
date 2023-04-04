@@ -6,7 +6,7 @@
   },
   "devDependencies": {
     "@architect/sandbox": "latest",
-    "@enhance/ssr": "^3.0.9",
+    "@enhance/ssr": "^3.2.0",
     "@wdio/browser-runner": "^8.6.9",
     "@wdio/cli": "^8.6.9",
     "@wdio/mocha-framework": "^8.6.8",

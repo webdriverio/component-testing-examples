@@ -21,12 +21,12 @@
     "chromedriver": "^111.0.0",
     "solid-testing-library": "^0.5.0",
     "ts-node": "^10.9.1",
-    "typescript": "^5.0.2",
+    "typescript": "^5.0.3",
     "vite": "^4.2.1",
     "vite-plugin-solid": "^2.6.1",
     "wdio-chromedriver-service": "^8.1.1"
   },
   "dependencies": {
-    "solid-js": "^1.6.16"
+    "solid-js": "^1.7.1"
   }
 }

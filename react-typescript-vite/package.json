@@ -16,7 +16,7 @@
   "devDependencies": {
     "@testing-library/react": "^14.0.0",
     "@types/mocha": "^10.0.1",
-    "@types/react": "^18.0.30",
+    "@types/react": "^18.0.33",
     "@types/react-dom": "^18.0.11",
     "@vitejs/plugin-react": "^3.1.0",
     "@wdio/browser-runner": "^8.6.9",
@@ -26,7 +26,7 @@
     "@wdio/spec-reporter": "^8.6.8",
     "chromedriver": "^111.0.0",
     "ts-node": "^10.9.1",
-    "typescript": "^5.0.2",
+    "typescript": "^5.0.3",
     "vite": "^4.2.1",
     "wdio-chromedriver-service": "^8.1.1"
   }
