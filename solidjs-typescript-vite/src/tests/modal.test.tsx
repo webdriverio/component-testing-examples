@@ -7,6 +7,8 @@ describe('my component tests', () => {
   const ref = document.createElement('div')
 
   before(() => {
+    document.body.parentElement!.style.height = '100%'
+    document.body.style.height = '100%';
     document.body.appendChild(ref);
   })
 

@@ -1,5 +1,5 @@
 import { createSignal, Show } from "solid-js";
-import clickOutside from '../directives/click-outside';
+import clickOutside from '../directives/click-outside.js';
 import './modal.css';
 
 export default function Modal () {
