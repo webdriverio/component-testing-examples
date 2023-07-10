@@ -13,20 +13,20 @@
   "type": "module",
   "license": "MIT",
   "devDependencies": {
-    "@wdio/browser-runner": "^8.8.4",
-    "@wdio/cli": "^8.8.4",
-    "@wdio/mocha-framework": "^8.8.4",
-    "@wdio/sauce-service": "^8.8.4",
-    "@wdio/spec-reporter": "^8.8.4",
-    "chromedriver": "^112.0.0",
+    "@wdio/browser-runner": "^8.12.2",
+    "@wdio/cli": "^8.12.2",
+    "@wdio/mocha-framework": "^8.12.1",
+    "@wdio/sauce-service": "^8.12.1",
+    "@wdio/spec-reporter": "^8.12.2",
+    "chromedriver": "^114.0.2",
     "solid-testing-library": "^0.5.0",
     "ts-node": "^10.9.1",
-    "typescript": "^5.0.4",
-    "vite": "^4.2.1",
+    "typescript": "^5.1.6",
+    "vite": "^4.4.2",
     "vite-plugin-solid": "^2.7.0",
     "wdio-chromedriver-service": "^8.1.1"
   },
   "dependencies": {
-    "solid-js": "^1.7.3"
+    "solid-js": "^1.7.7"
   }
 }

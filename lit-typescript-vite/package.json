@@ -18,19 +18,19 @@
     "wdio": "wdio run ./wdio.conf.ts"
   },
   "dependencies": {
-    "lit": "^2.7.2"
+    "lit": "^2.7.6"
   },
   "devDependencies": {
-    "@testing-library/dom": "^9.2.0",
+    "@testing-library/dom": "^9.3.1",
     "@types/mocha": "^10.0.1",
-    "@wdio/browser-runner": "^8.8.4",
-    "@wdio/cli": "^8.8.4",
-    "@wdio/mocha-framework": "^8.8.4",
-    "@wdio/spec-reporter": "^8.8.4",
-    "chromedriver": "^112.0.0",
+    "@wdio/browser-runner": "^8.12.2",
+    "@wdio/cli": "^8.12.2",
+    "@wdio/mocha-framework": "^8.12.1",
+    "@wdio/spec-reporter": "^8.12.2",
+    "chromedriver": "^114.0.2",
     "ts-node": "^10.9.1",
-    "typescript": "^5.0.4",
-    "vite": "^4.2.1",
+    "typescript": "^5.1.6",
+    "vite": "^4.4.2",
     "wdio-chromedriver-service": "^8.1.1"
   }
 }
