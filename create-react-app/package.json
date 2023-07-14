@@ -6,8 +6,8 @@
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^14.0.0",
     "@testing-library/user-event": "^14.4.3",
-    "@wdio/browser-runner": "^8.12.2",
-    "@wdio/cli": "^8.12.2",
+    "@wdio/browser-runner": "^8.13.0",
+    "@wdio/cli": "^8.13.0",
     "@wdio/mocha-framework": "^8.12.1",
     "@wdio/spec-reporter": "^8.12.2",
     "@vitejs/plugin-react": "^4.0.3",
@@ -16,7 +16,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
-    "web-vitals": "^3.3.2"
+    "web-vitals": "^3.4.0"
   },
   "type": "module",
   "scripts": {
