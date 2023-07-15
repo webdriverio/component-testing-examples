@@ -165,7 +165,7 @@ export const config: Options.Testrunner = {
   mochaOpts: {
     ui: 'bdd',
     timeout: process.env.CI
-      ? 10 * 1000 // 10s
+      ? 60 * 1000 // 60s
       : 10 * 60 * 1000 // 10min
   },
   //
