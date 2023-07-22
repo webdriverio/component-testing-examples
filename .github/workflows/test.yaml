@@ -13,6 +13,7 @@ jobs:
           - vue-typescript-vite
           - solidjs-typescript-vite
           - enhance
+          - nuxt
           - create-react-app
     steps:
         - name: Checkout
