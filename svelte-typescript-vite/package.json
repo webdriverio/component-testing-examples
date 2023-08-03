@@ -11,23 +11,23 @@
     "wdio": "wdio run ./wdio.conf.ts"
   },
   "devDependencies": {
-    "@sveltejs/vite-plugin-svelte": "^2.4.2",
+    "@sveltejs/vite-plugin-svelte": "^2.4.3",
     "@testing-library/svelte": "^4.0.3",
     "@tsconfig/svelte": "^5.0.0",
     "@types/mocha": "^10.0.1",
-    "@wdio/browser-runner": "^8.13.9",
-    "@wdio/cli": "^8.13.5",
-    "@wdio/globals": "^8.13.4",
-    "@wdio/mocha-framework": "^8.12.1",
-    "@wdio/spec-reporter": "^8.12.2",
-    "chromedriver": "^114.0.3",
-    "svelte": "^4.1.1",
+    "@wdio/browser-runner": "^8.14.3",
+    "@wdio/cli": "^8.14.4",
+    "@wdio/globals": "^8.14.3",
+    "@wdio/mocha-framework": "^8.14.0",
+    "@wdio/spec-reporter": "^8.14.0",
+    "chromedriver": "^115.0.0",
+    "svelte": "^4.1.2",
     "svelte-check": "^3.4.6",
     "svelte-preprocess": "^5.0.4",
     "ts-node": "^10.9.1",
-    "tslib": "^2.6.0",
+    "tslib": "^2.6.1",
     "typescript": "^5.1.6",
-    "vite": "^4.4.6",
+    "vite": "^4.4.8",
     "wdio-chromedriver-service": "^8.1.1"
   }
 }
