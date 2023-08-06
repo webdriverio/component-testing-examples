@@ -11,9 +11,7 @@
     "@wdio/cli": "^8.14.4",
     "@wdio/mocha-framework": "^8.14.0",
     "@wdio/spec-reporter": "^8.14.0",
-    "chromedriver": "^115.0.0",
-    "eslint": "latest",
-    "wdio-chromedriver-service": "^8.1.1"
+    "eslint": "latest"
   },
   "dependencies": {
     "@enhance/arc-plugin-enhance": "latest"

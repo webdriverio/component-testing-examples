@@ -21,11 +21,9 @@
     "@wdio/cli": "^8.14.4",
     "@wdio/mocha-framework": "^8.14.0",
     "@wdio/spec-reporter": "^8.14.0",
-    "chromedriver": "^115.0.0",
     "ts-node": "^10.9.1",
     "typescript": "^5.1.6",
     "vite": "^4.4.8",
-    "vue-tsc": "^1.8.8",
-    "wdio-chromedriver-service": "^8.1.1"
+    "vue-tsc": "^1.8.8"
   }
 }
