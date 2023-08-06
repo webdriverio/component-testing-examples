@@ -11,7 +11,7 @@
     "wdio": "wdio run ./wdio.conf.ts"
   },
   "devDependencies": {
-    "@sveltejs/vite-plugin-svelte": "^2.4.3",
+    "@sveltejs/vite-plugin-svelte": "^2.4.4",
     "@testing-library/svelte": "^4.0.3",
     "@tsconfig/svelte": "^5.0.0",
     "@types/mocha": "^10.0.1",

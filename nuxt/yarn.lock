@@ -875,10 +875,10 @@
     lodash.template "^4.5.0"
     pathe "^1.1.1"
 
-"@nuxtjs/supabase@^1.0.1":
-  version "1.0.1"
-  resolved "https://registry.npmjs.org/@nuxtjs/supabase/-/supabase-1.0.1.tgz"
-  integrity sha512-rmWVYU42EEoXdzWvjHKosHyn9vXrp2M1WX4zAM8q3SFsDGKNwX2A+jrLmvM4Mv2UekrXFlnhLuGvE8dV36mQTQ==
+"@nuxtjs/supabase@^1.0.2":
+  version "1.0.2"
+  resolved "https://registry.npmjs.org/@nuxtjs/supabase/-/supabase-1.0.2.tgz"
+  integrity sha512-stHwyZy6pMLBTJVuwdLh9LtaebtVpDIXSkQZ8rnY9lIik8S1+r3HkxUhnpL8VOwMUn4jpBBGqrZUAcRXM/csbQ==
   dependencies:
     "@nuxt/kit" "^3.6.5"
     "@supabase/supabase-js" "2.31.0"

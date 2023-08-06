@@ -17,7 +17,7 @@
   "devDependencies": {
     "@faker-js/faker": "^8.0.2",
     "@nuxt/devtools": "latest",
-    "@nuxtjs/supabase": "^1.0.1",
+    "@nuxtjs/supabase": "^1.0.2",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/vue": "^7.0.0",
     "@types/mocha": "^10.0.1",
