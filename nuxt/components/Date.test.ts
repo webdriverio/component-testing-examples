@@ -12,6 +12,10 @@ describe('Date Component', () => {
         render(DateComponent, { props: { date: localTime } })
         const component = await $('span')
         await expect(component).toBePresent()
-        await expect(component).toHaveText('31/12/2042, 19:00:00')
+        await expect(component).toHaveText(
+          process.env.CI
+            ? '12/31/2042, 7:00:00 PM'
+            : '31/12/2042, 19:00:00'
+        )
     })
 })
