@@ -2,7 +2,7 @@
   "scripts": {
     "start": "sandbox",
     "lint": "eslint ./app/**/*.mjs --fix",
-    "wdio": "wdio run ./tests/wdio.conf.js"
+    "wdio": "wdio run ./wdio.conf.js"
   },
   "devDependencies": {
     "@architect/sandbox": "latest",
@@ -19,7 +19,9 @@
   "type": "module",
   "eslintConfig": {
     "env": {
-      "node": true
+      "node": true,
+      "mocha": true,
+      "browser": true
     },
     "extends": "eslint:recommended",
     "rules": {

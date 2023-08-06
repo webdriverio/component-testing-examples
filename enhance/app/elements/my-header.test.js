@@ -1,7 +1,7 @@
 import { expect, browser } from '@wdio/globals'
 import enhance from '@enhance/ssr'
 
-import MyHeader from '../../app/elements/my-header.mjs'
+import MyHeader from './my-header.mjs'
 
 describe('Enhance Framework', () => {
   it('should render MyHeader element correctly', async () => {

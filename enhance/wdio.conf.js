@@ -21,7 +21,7 @@ export const config = {
   // will be called from there.
   //
   specs: [
-    './specs/*.test.js'
+    './app/**/*.test.js'
   ],
   // Patterns to exclude.
   exclude: [
@@ -94,6 +94,7 @@ export const config = {
   // If your `url` parameter starts without a scheme or `/` (like `some/path`), the base url
   // gets prepended directly.
   baseUrl: '',
+  // rootDir: path.resolve(__dirname, '..'),
   //
   // Default timeout for all waitFor* commands.
   waitforTimeout: 10000,
