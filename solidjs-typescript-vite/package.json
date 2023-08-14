@@ -13,18 +13,18 @@
   "type": "module",
   "license": "MIT",
   "devDependencies": {
-    "@wdio/browser-runner": "^8.14.3",
-    "@wdio/cli": "^8.14.4",
+    "@wdio/browser-runner": "^8.14.6",
+    "@wdio/cli": "^8.14.6",
     "@wdio/mocha-framework": "^8.14.0",
-    "@wdio/sauce-service": "^8.14.5",
+    "@wdio/sauce-service": "^8.14.6",
     "@wdio/spec-reporter": "^8.14.0",
     "solid-testing-library": "^0.5.0",
     "ts-node": "^10.9.1",
     "typescript": "^5.1.6",
-    "vite": "^4.4.8",
+    "vite": "^4.4.9",
     "vite-plugin-solid": "^2.7.0"
   },
   "dependencies": {
-    "solid-js": "^1.7.9"
+    "solid-js": "^1.7.11"
   }
 }
