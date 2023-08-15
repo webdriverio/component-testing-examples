@@ -1,0 +1,45 @@
+{
+  "name": "stencil-starter-project-name",
+  "version": "0.0.1",
+  "description": "Stencil Component Starter",
+  "module": "dist/index.js",
+  "types": "dist/types/index.d.ts",
+  "type": "module",
+  "collection": "dist/collection/collection-manifest.json",
+  "collection:main": "dist/collection/index.js",
+  "unpkg": "dist/stencil-starter-project-name/stencil-starter-project-name.esm.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ionic-team/stencil-component-starter.git"
+  },
+  "files": [
+    "dist/",
+    "loader/"
+  ],
+  "scripts": {
+    "build": "stencil build --docs",
+    "start": "stencil build --dev --watch --serve",
+    "test": "stencil test --spec --e2e",
+    "test.watch": "stencil test --spec --e2e --watchAll",
+    "generate": "stencil generate",
+    "wdio": "wdio run ./wdio.conf.ts"
+  },
+  "devDependencies": {
+    "@stencil/core": "^4.0.5",
+    "@types/jest": "^27.5.2",
+    "@types/node": "^16.18.11",
+    "@wdio/browser-runner": "^8.15.0",
+    "@wdio/cli": "^8.15.0",
+    "@wdio/mocha-framework": "^8.15.0",
+    "@wdio/spec-reporter": "^8.15.0",
+    "jest": "^27.5.1",
+    "jest-cli": "^27.5.1",
+    "puppeteer": "^20.7.3",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "mlly": "^1.4.0"
+  }
+}
