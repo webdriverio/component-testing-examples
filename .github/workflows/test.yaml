@@ -15,6 +15,7 @@ jobs:
           - enhance
           - nuxt
           - create-react-app
+          - stencil-component-starter
     steps:
         - name: Checkout
           uses: actions/checkout@v2
