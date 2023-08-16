@@ -5,7 +5,7 @@ import { render } from '@wdio/browser-runner/stencil';
 import { MyComponent } from './my-component.js';
 
 describe('my-component', () => {
-  it('renders', async () => {
+  it('renders the component correctly', async () => {
     render({
       components: [MyComponent],
       template: () => <my-component first="Stencil" last="'Don't call me a framework' JS" />
