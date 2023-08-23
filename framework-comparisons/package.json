@@ -21,26 +21,26 @@
     "react-instantsearch-dom": "^6.40.4"
   },
   "devDependencies": {
-    "@playwright/experimental-ct-react": "^1.37.0",
-    "@playwright/test": "^1.37.0",
-    "@testing-library/jest-dom": "^6.0.0",
+    "@playwright/experimental-ct-react": "^1.37.1",
+    "@playwright/test": "^1.37.1",
+    "@testing-library/jest-dom": "^6.1.1",
     "@testing-library/react": "^14.0.0",
-    "@types/react": "^18.2.20",
+    "@types/react": "^18.2.21",
     "@types/react-dom": "^18.2.7",
     "@types/react-instantsearch-dom": "^6.12.3",
     "@vitejs/plugin-react": "^4.0.4",
-    "@wdio/browser-runner": "^8.15.2",
-    "@wdio/cli": "^8.15.3",
-    "@wdio/mocha-framework": "^8.15.0",
-    "@wdio/spec-reporter": "^8.15.0",
+    "@wdio/browser-runner": "^8.15.6",
+    "@wdio/cli": "^8.15.6",
+    "@wdio/mocha-framework": "^8.15.6",
+    "@wdio/spec-reporter": "^8.15.6",
     "cypress": "^12.17.4",
     "cypress-real-events": "^1.10.0",
     "jsdom": "^22.1.0",
-    "playwright": "^1.37.0",
+    "playwright": "^1.37.1",
     "react-zoom-pan-pinch": "^3.1.0",
     "ts-node": "^10.9.1",
     "typescript": "^5.1.6",
     "vite": "^4.4.9",
-    "vitest": "^0.34.1"
+    "vitest": "^0.34.2"
   }
 }
