@@ -12,8 +12,8 @@ Current examples are:
 - [`nuxt`](https://github.com/webdriverio/component-testing-examples/tree/main/nuxt): [Nuxt](https://nuxt.com/)
 - [`solidjs-typescript-vite`](https://github.com/webdriverio/component-testing-examples/tree/main/solidjs-typescript-vite): [Solid.js](https://www.solidjs.com/) + [TypeScript](https://www.typescriptlang.org/) compiled with [Vite](https://vitejs.dev/)
 - [`enhance`](https://github.com/webdriverio/component-testing-examples/tree/main/enhance): [Enhance](https://enhance.dev/docs/)
-- [`create-react-app`](https://github.com/webdriverio/component-testing-examples/tree/main/create-react-app`): [Create React App](https://create-react-app.dev/)
-- [`stencil-component-starter`](https://github.com/webdriverio/component-testing-examples/tree/main/stencil-component-starter`): [Stencil Component Starter](https://github.com/ionic-team/stencil-component-starter) using [Stencil](https://stenciljs.com/)
+- [`create-react-app`](https://github.com/webdriverio/component-testing-examples/tree/main/create-react-app): [Create React App](https://create-react-app.dev/)
+- [`stencil-component-starter`](https://github.com/webdriverio/component-testing-examples/tree/main/stencil-component-starter): [Stencil Component Starter](https://github.com/ionic-team/stencil-component-starter) using [Stencil](https://stenciljs.com/)
 
 If you are missing an example, feel free to [raise an issue](https://github.com/webdriverio/component-testing-examples/issues/new).
 
