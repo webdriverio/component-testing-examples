@@ -16,13 +16,13 @@
     "@preact/preset-vite": "^2.5.0",
     "@testing-library/preact": "^3.2.3",
     "@types/mocha": "^10.0.1",
-    "@wdio/browser-runner": "^8.15.6",
-    "@wdio/cli": "^8.15.6",
-    "@wdio/globals": "^8.15.6",
-    "@wdio/mocha-framework": "^8.15.6",
-    "@wdio/spec-reporter": "^8.15.6",
+    "@wdio/browser-runner": "^8.15.10",
+    "@wdio/cli": "^8.15.10",
+    "@wdio/globals": "^8.15.10",
+    "@wdio/mocha-framework": "^8.15.10",
+    "@wdio/spec-reporter": "^8.15.10",
     "ts-node": "^10.9.1",
-    "typescript": "^5.1.6",
+    "typescript": "^5.2.2",
     "vite": "^4.4.9"
   }
 }

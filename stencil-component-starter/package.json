@@ -27,16 +27,16 @@
   "devDependencies": {
     "@stencil/core": "^4.1.0",
     "@types/jest": "^29.5.4",
-    "@types/node": "^20.5.3",
-    "@wdio/browser-runner": "^8.15.6",
-    "@wdio/cli": "^8.15.6",
-    "@wdio/mocha-framework": "^8.15.6",
-    "@wdio/spec-reporter": "^8.15.6",
+    "@types/node": "^20.5.7",
+    "@wdio/browser-runner": "^8.15.10",
+    "@wdio/cli": "^8.15.10",
+    "@wdio/mocha-framework": "^8.15.10",
+    "@wdio/spec-reporter": "^8.15.10",
     "ts-node": "^10.9.1",
-    "typescript": "^5.1.6"
+    "typescript": "^5.2.2"
   },
   "license": "MIT",
   "dependencies": {
-    "mlly": "^1.4.0"
+    "mlly": "^1.4.1"
   }
 }

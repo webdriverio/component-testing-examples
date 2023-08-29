@@ -7,10 +7,10 @@
   "devDependencies": {
     "@architect/sandbox": "latest",
     "@enhance/ssr": "^3.4.1",
-    "@wdio/browser-runner": "^8.15.6",
-    "@wdio/cli": "^8.15.6",
-    "@wdio/mocha-framework": "^8.15.6",
-    "@wdio/spec-reporter": "^8.15.6",
+    "@wdio/browser-runner": "^8.15.10",
+    "@wdio/cli": "^8.15.10",
+    "@wdio/mocha-framework": "^8.15.10",
+    "@wdio/spec-reporter": "^8.15.10",
     "eslint": "latest"
   },
   "dependencies": {
