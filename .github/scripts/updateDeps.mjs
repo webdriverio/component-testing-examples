@@ -32,7 +32,8 @@ const frameworkDirs = await Promise.all((await fs.readdir(root))
   .map(async (entry) => [entry, (await fs.stat(entry)).isDirectory()])
 ).then((res) => res
   .filter(([, isDirectory]) => isDirectory)
-  .map(([entry]) => entry))
+  .map(([entry]) => entry)
+  .filter((entry) => !entry.startsWith('framework-comparison')))
 
 await Promise.all(frameworkDirs.map(async (framework) => {
   console.log(`🪄  Update dependencies for ${framework}`)
