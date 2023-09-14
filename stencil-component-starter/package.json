@@ -25,18 +25,18 @@
     "wdio": "wdio run ./wdio.conf.ts"
   },
   "devDependencies": {
-    "@stencil/core": "^4.1.0",
+    "@stencil/core": "^4.2.1",
     "@types/jest": "^29.5.4",
-    "@types/node": "^20.5.8",
-    "@wdio/browser-runner": "^8.16.0",
-    "@wdio/cli": "^8.16.0",
-    "@wdio/mocha-framework": "^8.16.0",
-    "@wdio/spec-reporter": "^8.15.10",
+    "@types/node": "^20.6.0",
+    "@wdio/browser-runner": "^8.16.7",
+    "@wdio/cli": "^8.16.7",
+    "@wdio/mocha-framework": "^8.16.7",
+    "@wdio/spec-reporter": "^8.16.7",
     "ts-node": "^10.9.1",
     "typescript": "^5.2.2"
   },
   "license": "MIT",
   "dependencies": {
-    "mlly": "^1.4.1"
+    "mlly": "^1.4.2"
   }
 }
