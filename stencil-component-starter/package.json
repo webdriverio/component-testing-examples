@@ -25,12 +25,12 @@
     "wdio": "wdio run ./wdio.conf.ts"
   },
   "devDependencies": {
-    "@stencil/core": "^4.2.1",
+    "@stencil/core": "^4.3.0",
     "@types/jest": "^29.5.5",
     "@types/node": "^20.6.2",
-    "@wdio/browser-runner": "^8.16.10",
-    "@wdio/cli": "^8.16.10",
-    "@wdio/mocha-framework": "^8.16.10",
+    "@wdio/browser-runner": "^8.16.11",
+    "@wdio/cli": "^8.16.11",
+    "@wdio/mocha-framework": "^8.16.11",
     "@wdio/spec-reporter": "^8.16.9",
     "ts-node": "^10.9.1",
     "typescript": "^5.2.2"
