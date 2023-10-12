@@ -15,17 +15,17 @@
   },
   "devDependencies": {
     "@testing-library/react": "^14.0.0",
-    "@types/mocha": "^10.0.1",
-    "@types/react": "^18.2.22",
-    "@types/react-dom": "^18.2.7",
-    "@vitejs/plugin-react": "^4.0.4",
-    "@wdio/browser-runner": "^8.16.11",
-    "@wdio/cli": "^8.16.11",
-    "@wdio/globals": "^8.16.11",
-    "@wdio/mocha-framework": "^8.16.11",
-    "@wdio/spec-reporter": "^8.16.9",
+    "@types/mocha": "^10.0.2",
+    "@types/react": "^18.2.28",
+    "@types/react-dom": "^18.2.13",
+    "@vitejs/plugin-react": "^4.1.0",
+    "@wdio/browser-runner": "^8.18.0",
+    "@wdio/cli": "^8.18.0",
+    "@wdio/globals": "^8.18.0",
+    "@wdio/mocha-framework": "^8.18.0",
+    "@wdio/spec-reporter": "^8.17.0",
     "ts-node": "^10.9.1",
     "typescript": "^5.2.2",
-    "vite": "^4.4.9"
+    "vite": "^4.4.11"
   }
 }
