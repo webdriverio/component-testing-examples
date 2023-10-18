@@ -14,16 +14,16 @@
   },
   "devDependencies": {
     "@testing-library/vue": "^7.0.0",
-    "@types/mocha": "^10.0.2",
+    "@types/mocha": "^10.0.3",
     "@vitejs/plugin-vue": "^4.4.0",
     "@vue/compiler-dom": "^3.3.4",
-    "@wdio/browser-runner": "^8.18.0",
-    "@wdio/cli": "^8.18.0",
-    "@wdio/mocha-framework": "^8.18.0",
-    "@wdio/spec-reporter": "^8.17.0",
+    "@wdio/browser-runner": "^8.19.0",
+    "@wdio/cli": "^8.19.0",
+    "@wdio/mocha-framework": "^8.19.0",
+    "@wdio/spec-reporter": "^8.19.0",
     "ts-node": "^10.9.1",
     "typescript": "^5.2.2",
-    "vite": "^4.4.11",
+    "vite": "^4.5.0",
     "vue-tsc": "^1.8.19"
   }
 }
