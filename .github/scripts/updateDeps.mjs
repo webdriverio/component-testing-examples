@@ -39,7 +39,7 @@ await Promise.all(frameworkDirs.map(async (framework) => {
   console.log(`🪄  Update dependencies for ${framework}`)
   await fs.unlink(path.join(root, framework, 'node_modules'))
     .catch((err) => { /* ignore */ })
-  await exec(`rm -fr ./node_modules`, framework)
+  await exec(`rm -fr ./node_modules package-lock.json`, framework)
   await exec(`ncu -u`, framework)
   await exec(`npm i`, framework)
 }))
