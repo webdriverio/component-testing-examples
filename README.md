@@ -14,12 +14,13 @@ Current examples are:
 - [`enhance`](https://github.com/webdriverio/component-testing-examples/tree/main/enhance): [Enhance](https://enhance.dev/docs/)
 - [`create-react-app`](https://github.com/webdriverio/component-testing-examples/tree/main/create-react-app): [Create React App](https://create-react-app.dev/)
 - [`stencil-component-starter`](https://github.com/webdriverio/component-testing-examples/tree/main/stencil-component-starter): [Stencil Component Starter](https://github.com/ionic-team/stencil-component-starter) using [Stencil](https://stenciljs.com/)
+- [`ionic-react`](https://github.com/webdriverio/component-testing-examples/tree/main/ionic-react): [Ionic React Starter](https://ionicframework.com/docs/react) using [Capacitor](https://capacitorjs.com/)
 
 If you are missing an example, feel free to [raise an issue](https://github.com/webdriverio/component-testing-examples/issues/new).
 
 ## Usage
 
-You can test component testing with WebdriverIO using given examples by:
+You can test component testing with WebdriverIO using the given examples:
 
 1. Switch to the desired example directory
 
@@ -45,4 +46,4 @@ For more information on browser and component testing using WebdriverIO, check o
 
 ## Contributing
 
-Contributions adding more examples or extending existing examples are very welcome. For questions around this topic, feel free to join our [Gitter Support Channel](https://gitter.im/webdriverio/webdriverio) or raise an issue.
+Contributions to adding more examples or extending existing examples are very welcome. For questions about this topic, feel free to join our [Gitter Support Channel](https://gitter.im/webdriverio/webdriverio) or raise an issue.
