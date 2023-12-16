@@ -16,6 +16,7 @@ jobs:
           - nuxt
           - create-react-app
           - stencil-component-starter
+          - ionic-react
     steps:
         - name: Checkout
           uses: actions/checkout@v2
