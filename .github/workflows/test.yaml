@@ -14,6 +14,7 @@ jobs:
           - solidjs-typescript-vite
           - enhance
           - nuxt
+          - nextjs
           - create-react-app
           - stencil-component-starter
           - ionic-react
