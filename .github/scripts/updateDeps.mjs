@@ -33,7 +33,24 @@ const frameworkDirs = await Promise.all((await fs.readdir(root))
 ).then((res) => res
   .filter(([, isDirectory]) => isDirectory)
   .map(([entry]) => entry)
-  .filter((entry) => !entry.startsWith('framework-comparison')))
+  .filter((entry) => (
+    !entry.startsWith('framework-comparison') &&
+    /**
+     * fails update due to:
+     * npm ERR! ERESOLVE unable to resolve dependency tree
+     * npm ERR!
+     * npm ERR! While resolving: ionic-react@0.0.1
+     * npm ERR! Found: react-router@6.21.2
+     * npm ERR! node_modules/react-router
+     * npm ERR!   react-router@"^6.21.2" from the root project
+     * npm ERR!
+     * npm ERR! Could not resolve dependency:
+     * npm ERR! peer react-router@"^5.0.1" from @ionic/react-router@7.6.4
+     * npm ERR! node_modules/@ionic/react-router
+     * npm ERR!   @ionic/react-router@"^7.6.4" from the root project
+     */
+    entry !== 'ionic-react'
+  )))
 
 await Promise.all(frameworkDirs.map(async (framework) => {
   console.log(`🪄  Update dependencies for ${framework}`)

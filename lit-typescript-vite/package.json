@@ -18,17 +18,17 @@
     "wdio": "wdio run ./wdio.conf.ts"
   },
   "dependencies": {
-    "lit": "^3.1.0"
+    "lit": "^3.1.1"
   },
   "devDependencies": {
-    "@testing-library/dom": "^9.3.3",
+    "@testing-library/dom": "^9.3.4",
     "@types/mocha": "^10.0.6",
-    "@wdio/browser-runner": "^8.26.1",
-    "@wdio/cli": "^8.26.1",
-    "@wdio/mocha-framework": "^8.24.12",
-    "@wdio/spec-reporter": "^8.24.12",
+    "@wdio/browser-runner": "^8.28.0",
+    "@wdio/cli": "^8.28.0",
+    "@wdio/mocha-framework": "^8.28.0",
+    "@wdio/spec-reporter": "^8.28.0",
     "ts-node": "^10.9.2",
     "typescript": "^5.3.3",
-    "vite": "^5.0.7"
+    "vite": "^5.0.11"
   }
 }
