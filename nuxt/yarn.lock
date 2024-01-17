@@ -734,55 +734,7 @@
     which "^3.0.1"
     ws "^8.16.0"
 
-"@nuxt/kit@^3.8.1", "@nuxt/kit@^3.8.2":
-  version "3.8.2"
-  resolved "https://registry.npmjs.org/@nuxt/kit/-/kit-3.8.2.tgz"
-  integrity sha512-LrXCm8hAkw+zpX8teUSD/LqXRarlXjbRiYxDkaqw739JSHFReWzBFgJbojsJqL4h1XIEScDGGOWiEgO4QO1sMg==
-  dependencies:
-    "@nuxt/schema" "3.8.2"
-    c12 "^1.5.1"
-    consola "^3.2.3"
-    defu "^6.1.3"
-    globby "^14.0.0"
-    hash-sum "^2.0.0"
-    ignore "^5.3.0"
-    jiti "^1.21.0"
-    knitwork "^1.0.0"
-    mlly "^1.4.2"
-    pathe "^1.1.1"
-    pkg-types "^1.0.3"
-    scule "^1.1.0"
-    semver "^7.5.4"
-    ufo "^1.3.2"
-    unctx "^2.3.1"
-    unimport "^3.5.0"
-    untyped "^1.4.0"
-
-"@nuxt/kit@^3.9.0":
-  version "3.9.2"
-  resolved "https://registry.npmjs.org/@nuxt/kit/-/kit-3.9.2.tgz"
-  integrity sha512-SmWXnA7z9OJuPXYvrx/8QnnsahRJEfLVciUUxCaVEMOxdRZnr1lUmzoT4wFVcYMQnMJYz1Alo58x4vtty6P73w==
-  dependencies:
-    "@nuxt/schema" "3.9.2"
-    c12 "^1.6.1"
-    consola "^3.2.3"
-    defu "^6.1.4"
-    globby "^14.0.0"
-    hash-sum "^2.0.0"
-    ignore "^5.3.0"
-    jiti "^1.21.0"
-    knitwork "^1.0.0"
-    mlly "^1.5.0"
-    pathe "^1.1.2"
-    pkg-types "^1.0.3"
-    scule "^1.2.0"
-    semver "^7.5.4"
-    ufo "^1.3.2"
-    unctx "^2.3.1"
-    unimport "^3.7.1"
-    untyped "^1.4.0"
-
-"@nuxt/kit@^3.9.1":
+"@nuxt/kit@^3.8.1", "@nuxt/kit@^3.8.2", "@nuxt/kit@^3.9.0", "@nuxt/kit@^3.9.1", "@nuxt/kit@3.9.2":
   version "3.9.2"
   resolved "https://registry.npmjs.org/@nuxt/kit/-/kit-3.9.2.tgz"
   integrity sha512-SmWXnA7z9OJuPXYvrx/8QnnsahRJEfLVciUUxCaVEMOxdRZnr1lUmzoT4wFVcYMQnMJYz1Alo58x4vtty6P73w==
@@ -830,30 +782,6 @@
     unimport "^2.0.1"
     untyped "^1.2.2"
 
-"@nuxt/kit@3.9.2":
-  version "3.9.2"
-  resolved "https://registry.npmjs.org/@nuxt/kit/-/kit-3.9.2.tgz"
-  integrity sha512-SmWXnA7z9OJuPXYvrx/8QnnsahRJEfLVciUUxCaVEMOxdRZnr1lUmzoT4wFVcYMQnMJYz1Alo58x4vtty6P73w==
-  dependencies:
-    "@nuxt/schema" "3.9.2"
-    c12 "^1.6.1"
-    consola "^3.2.3"
-    defu "^6.1.4"
-    globby "^14.0.0"
-    hash-sum "^2.0.0"
-    ignore "^5.3.0"
-    jiti "^1.21.0"
-    knitwork "^1.0.0"
-    mlly "^1.5.0"
-    pathe "^1.1.2"
-    pkg-types "^1.0.3"
-    scule "^1.2.0"
-    semver "^7.5.4"
-    ufo "^1.3.2"
-    unctx "^2.3.1"
-    unimport "^3.7.1"
-    untyped "^1.4.0"
-
 "@nuxt/schema@^3.9.1", "@nuxt/schema@3.9.2":
   version "3.9.2"
   resolved "https://registry.npmjs.org/@nuxt/schema/-/schema-3.9.2.tgz"
@@ -889,23 +817,6 @@
     ufo "^1.0.1"
     unimport "^2.0.1"
     untyped "^1.2.2"
-
-"@nuxt/schema@3.8.2":
-  version "3.8.2"
-  resolved "https://registry.npmjs.org/@nuxt/schema/-/schema-3.8.2.tgz"
-  integrity sha512-AMpysQ/wHK2sOujLShqYdC4OSj/S3fFJGjhYXqA2g6dgmz+FNQWJRG/ie5sI9r2EX9Ela1wt0GN1jZR3wYNE8Q==
-  dependencies:
-    "@nuxt/ui-templates" "^1.3.1"
-    consola "^3.2.3"
-    defu "^6.1.3"
-    hookable "^5.5.3"
-    pathe "^1.1.1"
-    pkg-types "^1.0.3"
-    scule "^1.1.0"
-    std-env "^3.5.0"
-    ufo "^1.3.2"
-    unimport "^3.5.0"
-    untyped "^1.4.0"
 
 "@nuxt/telemetry@^2.5.3":
   version "2.5.3"
@@ -1783,10 +1694,10 @@
   dependencies:
     vue-demi ">=0.14.6"
 
-"@wdio/browser-runner@^8.28.0":
-  version "8.28.0"
-  resolved "https://registry.npmjs.org/@wdio/browser-runner/-/browser-runner-8.28.0.tgz"
-  integrity sha512-BBCfo+wo+JK3GRyLQYTuAlU8M3DYo9S7qaISA1NyPn4yyGj0Ch3NFwXxOU3BY0rRc4mbvmtRYXvBQQQjJIQs/g==
+"@wdio/browser-runner@^8.28.1":
+  version "8.28.1"
+  resolved "https://registry.npmjs.org/@wdio/browser-runner/-/browser-runner-8.28.1.tgz"
+  integrity sha512-gJaOU5O/W/BjuEWXP1pKu/SSeNJr8v0Me5jNDo3I1rBh4N8jQsEEU5VfgWPGiC3WEsbN16/PDb/RsWx5TXC2Mw==
   dependencies:
     "@babel/plugin-proposal-class-properties" "^7.18.6"
     "@originjs/vite-plugin-commonjs" "^1.0.3"
@@ -4959,7 +4870,12 @@ is-date-object@^1.0.5:
   dependencies:
     has-tostringtag "^1.0.0"
 
-is-docker@^2.0.0, is-docker@^2.1.1:
+is-docker@^2.0.0:
+  version "2.2.1"
+  resolved "https://registry.npmjs.org/is-docker/-/is-docker-2.2.1.tgz"
+  integrity sha512-F+i2BKsFrH66iaUFc0woD8sLy8getkwTwtOBjvs56Cx4CgJDeKQeqfz8wAYiSb8JOprWhHH5p77PbmYCvvUuXQ==
+
+is-docker@^2.1.1:
   version "2.2.1"
   resolved "https://registry.npmjs.org/is-docker/-/is-docker-2.2.1.tgz"
   integrity sha512-F+i2BKsFrH66iaUFc0woD8sLy8getkwTwtOBjvs56Cx4CgJDeKQeqfz8wAYiSb8JOprWhHH5p77PbmYCvvUuXQ==
@@ -8653,7 +8569,7 @@ unimport@^2.0.1:
     strip-literal "^1.0.0"
     unplugin "^1.0.1"
 
-unimport@^3.5.0, unimport@^3.6.0, unimport@^3.7.1:
+unimport@^3.6.0, unimport@^3.7.1:
   version "3.7.1"
   resolved "https://registry.npmjs.org/unimport/-/unimport-3.7.1.tgz"
   integrity sha512-V9HpXYfsZye5bPPYUgs0Otn3ODS1mDUciaBlXljI4C2fTwfFpvFZRywmlOu943puN9sncxROMZhsZCjNXEpzEQ==
