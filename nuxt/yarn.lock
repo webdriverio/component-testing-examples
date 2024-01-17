@@ -734,7 +734,7 @@
     which "^3.0.1"
     ws "^8.16.0"
 
-"@nuxt/kit@^3.8.1", "@nuxt/kit@^3.8.2", "@nuxt/kit@^3.9.0", "@nuxt/kit@^3.9.1", "@nuxt/kit@3.9.2":
+"@nuxt/kit@^3.8.1", "@nuxt/kit@^3.8.2", "@nuxt/kit@^3.9.0", "@nuxt/kit@^3.9.1":
   version "3.9.2"
   resolved "https://registry.npmjs.org/@nuxt/kit/-/kit-3.9.2.tgz"
   integrity sha512-SmWXnA7z9OJuPXYvrx/8QnnsahRJEfLVciUUxCaVEMOxdRZnr1lUmzoT4wFVcYMQnMJYz1Alo58x4vtty6P73w==
@@ -782,6 +782,30 @@
     unimport "^2.0.1"
     untyped "^1.2.2"
 
+"@nuxt/kit@3.9.3":
+  version "3.9.3"
+  resolved "https://registry.npmjs.org/@nuxt/kit/-/kit-3.9.3.tgz"
+  integrity sha512-bHGXpTB6E+YJCC1L9tTwrP7txgLZzyuFes/tgy1ZM4dlfrCsGqLK/K4mddROMdC3D81scnH84u7yQsN0JRgoTg==
+  dependencies:
+    "@nuxt/schema" "3.9.3"
+    c12 "^1.6.1"
+    consola "^3.2.3"
+    defu "^6.1.4"
+    globby "^14.0.0"
+    hash-sum "^2.0.0"
+    ignore "^5.3.0"
+    jiti "^1.21.0"
+    knitwork "^1.0.0"
+    mlly "^1.5.0"
+    pathe "^1.1.2"
+    pkg-types "^1.0.3"
+    scule "^1.2.0"
+    semver "^7.5.4"
+    ufo "^1.3.2"
+    unctx "^2.3.1"
+    unimport "^3.7.1"
+    untyped "^1.4.0"
+
 "@nuxt/schema@^3.9.1", "@nuxt/schema@3.9.2":
   version "3.9.2"
   resolved "https://registry.npmjs.org/@nuxt/schema/-/schema-3.9.2.tgz"
@@ -818,6 +842,23 @@
     unimport "^2.0.1"
     untyped "^1.2.2"
 
+"@nuxt/schema@3.9.3":
+  version "3.9.3"
+  resolved "https://registry.npmjs.org/@nuxt/schema/-/schema-3.9.3.tgz"
+  integrity sha512-pchkGBYdEJ9TAOoC5DKnLuAaFPjzgn2k0OUTr31QwbtHdTR3Q2Ua/oKsS1g9CPU7KRzSE5Vkf7ECE8zVydqF5A==
+  dependencies:
+    "@nuxt/ui-templates" "^1.3.1"
+    consola "^3.2.3"
+    defu "^6.1.4"
+    hookable "^5.5.3"
+    pathe "^1.1.2"
+    pkg-types "^1.0.3"
+    scule "^1.2.0"
+    std-env "^3.7.0"
+    ufo "^1.3.2"
+    unimport "^3.7.1"
+    untyped "^1.4.0"
+
 "@nuxt/telemetry@^2.5.3":
   version "2.5.3"
   resolved "https://registry.npmjs.org/@nuxt/telemetry/-/telemetry-2.5.3.tgz"
@@ -846,12 +887,12 @@
   resolved "https://registry.npmjs.org/@nuxt/ui-templates/-/ui-templates-1.3.1.tgz"
   integrity sha512-5gc02Pu1HycOVUWJ8aYsWeeXcSTPe8iX8+KIrhyEtEoOSkY0eMBuo0ssljB8wALuEmepv31DlYe5gpiRwkjESA==
 
-"@nuxt/vite-builder@3.9.2":
-  version "3.9.2"
-  resolved "https://registry.npmjs.org/@nuxt/vite-builder/-/vite-builder-3.9.2.tgz"
-  integrity sha512-Y8hIn/DlAeQPFKTTDGH8FJrnPCNhgwLXeQC3EroRpeF6/YIfJmTwTr4hWdeBtD2rJllFkWPEYJZfbQTithGtUg==
+"@nuxt/vite-builder@3.9.3":
+  version "3.9.3"
+  resolved "https://registry.npmjs.org/@nuxt/vite-builder/-/vite-builder-3.9.3.tgz"
+  integrity sha512-HruOrxn0g6TS31j3jycJvGZ7pt3JNEbcXNByVh7YJwQx6ToFX8kPWRu4LPeMhrLYvZzeUr2w3iELBECFxbDmvw==
   dependencies:
-    "@nuxt/kit" "3.9.2"
+    "@nuxt/kit" "3.9.3"
     "@rollup/plugin-replace" "^5.0.5"
     "@vitejs/plugin-vue" "^5.0.3"
     "@vitejs/plugin-vue-jsx" "^3.1.0"
@@ -1694,21 +1735,21 @@
   dependencies:
     vue-demi ">=0.14.6"
 
-"@wdio/browser-runner@^8.28.3":
-  version "8.28.3"
-  resolved "https://registry.npmjs.org/@wdio/browser-runner/-/browser-runner-8.28.3.tgz"
-  integrity sha512-NtI5kNhhzg5UmFfQGsKspjyD59EbfJ3QVa8UdUwho+Gy/CsYPgHqcZIx8msbkis85l1WKUMePxbBWONMKwygIg==
+"@wdio/browser-runner@^8.28.4":
+  version "8.28.4"
+  resolved "https://registry.npmjs.org/@wdio/browser-runner/-/browser-runner-8.28.4.tgz"
+  integrity sha512-tq/A+rid2pRbTl7+yPBqX3Ms4bFN593hMwAnOOpJZwoVdOsGrSBzg/lfB/uNIJ7AKa+UKzrcO+vpbLQVd4C/Bw==
   dependencies:
     "@babel/plugin-proposal-class-properties" "^7.18.6"
     "@originjs/vite-plugin-commonjs" "^1.0.3"
     "@types/istanbul-lib-source-maps" "^4.0.1"
     "@vitest/spy" "^1.0.1"
-    "@wdio/globals" "8.28.0"
-    "@wdio/local-runner" "8.28.0"
+    "@wdio/globals" "8.28.4"
+    "@wdio/local-runner" "8.28.4"
     "@wdio/logger" "8.28.0"
     "@wdio/mocha-framework" "8.28.0"
     "@wdio/protocols" "^8.24.12"
-    "@wdio/runner" "8.28.0"
+    "@wdio/runner" "8.28.4"
     "@wdio/types" "8.28.0"
     "@wdio/utils" "8.28.0"
     deepmerge-ts "^5.0.0"
@@ -1729,16 +1770,16 @@
     vite-plugin-istanbul "^5.0.0"
     vite-plugin-top-level-await "^1.3.0"
     webdriver "8.28.0"
-    webdriverio "8.28.0"
+    webdriverio "8.28.4"
 
-"@wdio/cli@^8.28.0":
-  version "8.28.0"
-  resolved "https://registry.npmjs.org/@wdio/cli/-/cli-8.28.0.tgz"
-  integrity sha512-pC15cIh1N14R6qidiymSmKtXEvvJBGrrWqKi8vlVVfby81TQEpfD2VqymzqDqv+YsLIp2J4XD8rwwcSvqtA9UA==
+"@wdio/cli@^8.28.4":
+  version "8.28.4"
+  resolved "https://registry.npmjs.org/@wdio/cli/-/cli-8.28.4.tgz"
+  integrity sha512-xdz7/SDMq4lfEBpg6ZSNaApM6x6h4W+g+JQc31ZsX/Wf3jlFPAIc1vlc1IrJXqWc3b0LcfRxMf3W9+KSxghGlQ==
   dependencies:
     "@types/node" "^20.1.1"
     "@wdio/config" "8.28.0"
-    "@wdio/globals" "8.28.0"
+    "@wdio/globals" "8.28.4"
     "@wdio/logger" "8.28.0"
     "@wdio/protocols" "8.24.12"
     "@wdio/types" "8.28.0"
@@ -1757,7 +1798,7 @@
     lodash.union "^4.6.0"
     read-pkg-up "^10.0.0"
     recursive-readdir "^2.2.3"
-    webdriverio "8.28.0"
+    webdriverio "8.28.4"
     yargs "^17.7.2"
 
 "@wdio/config@8.28.0":
@@ -1773,23 +1814,23 @@
     glob "^10.2.2"
     import-meta-resolve "^4.0.0"
 
-"@wdio/globals@^8.27.0", "@wdio/globals@8.28.0":
-  version "8.28.0"
-  resolved "https://registry.npmjs.org/@wdio/globals/-/globals-8.28.0.tgz"
-  integrity sha512-wVgkHOsKskZYu6FPaJpT19tYul3hi7nkB/TayYIk1rQTRuf3hoP2vHVjibGsU9W3JdhrZA/MUNTm5yrID70KZA==
+"@wdio/globals@^8.27.0", "@wdio/globals@8.28.4":
+  version "8.28.4"
+  resolved "https://registry.npmjs.org/@wdio/globals/-/globals-8.28.4.tgz"
+  integrity sha512-bwDrjCrg1KP+2h9vdkNFqPFtBSo/WTkDt4KdLrOgw0gXHk8QVS1POeBsukwWqPaVqty7o9tJ/dm7Mbs6WuIioQ==
   optionalDependencies:
     expect-webdriverio "^4.8.0"
-    webdriverio "8.28.0"
+    webdriverio "8.28.4"
 
-"@wdio/local-runner@8.28.0":
-  version "8.28.0"
-  resolved "https://registry.npmjs.org/@wdio/local-runner/-/local-runner-8.28.0.tgz"
-  integrity sha512-zPev8IfItJtIWArTRyr9XjPu4Kp4kO0B/NAJmGQgDauLMBBzciwf35tPp1CFmggGtaO4czryAclyk2CsCkkAoA==
+"@wdio/local-runner@8.28.4":
+  version "8.28.4"
+  resolved "https://registry.npmjs.org/@wdio/local-runner/-/local-runner-8.28.4.tgz"
+  integrity sha512-eIlAI5zxDscvz0y3rZT1oLsZZpeczv00ri3y+nJM3K3vUvfnnyQ5nq5L32HRn4P+NfGw+hlQOMZFoo6wdlLX9A==
   dependencies:
     "@types/node" "^20.1.0"
     "@wdio/logger" "8.28.0"
     "@wdio/repl" "8.24.12"
-    "@wdio/runner" "8.28.0"
+    "@wdio/runner" "8.28.4"
     "@wdio/types" "8.28.0"
     async-exit-hook "^2.0.1"
     split2 "^4.1.0"
@@ -1840,14 +1881,14 @@
     diff "^5.0.0"
     object-inspect "^1.12.0"
 
-"@wdio/runner@8.28.0":
-  version "8.28.0"
-  resolved "https://registry.npmjs.org/@wdio/runner/-/runner-8.28.0.tgz"
-  integrity sha512-IPaYSSjN6DDn75gDfzGQtFAu5oE1ee90L2xzXCYXK7xR4xr4O0IgNtFTq5cuLZsPRzJsGoq3z+1GxGSogC3u1A==
+"@wdio/runner@8.28.4":
+  version "8.28.4"
+  resolved "https://registry.npmjs.org/@wdio/runner/-/runner-8.28.4.tgz"
+  integrity sha512-a+JoAcF1iFCbE8lUcEuQysNAAPMUR+uBOOkmZVMCkmK6Wjl55kan+h2sfz6x4rYFuQMDOux2YfLL73EUtBwg/g==
   dependencies:
     "@types/node" "^20.1.0"
     "@wdio/config" "8.28.0"
-    "@wdio/globals" "8.28.0"
+    "@wdio/globals" "8.28.4"
     "@wdio/logger" "8.28.0"
     "@wdio/types" "8.28.0"
     "@wdio/utils" "8.28.0"
@@ -1855,7 +1896,7 @@
     expect-webdriverio "^4.8.0"
     gaze "^1.1.2"
     webdriver "8.28.0"
-    webdriverio "8.28.0"
+    webdriverio "8.28.4"
 
 "@wdio/spec-reporter@^8.28.0":
   version "8.28.0"
@@ -2177,14 +2218,14 @@ at-least-node@^1.0.0:
   resolved "https://registry.npmjs.org/at-least-node/-/at-least-node-1.0.0.tgz"
   integrity sha512-+q/t7Ekv1EDY2l6Gda6LLiX14rU9TV20Wa3ofeQmwPFZbOMo9DXrLbOjFaaclkXKWidIaopwAObQDqwWtGUjqg==
 
-autoprefixer@^10.4.16:
-  version "10.4.16"
-  resolved "https://registry.npmjs.org/autoprefixer/-/autoprefixer-10.4.16.tgz"
-  integrity sha512-7vd3UC6xKp0HLfua5IjZlcXvGAGy7cBAXTg2lyQ/8WpNhd6SiZ8Be+xm3FyBSYJx5GKcpRCzBh7RH4/0dnY+uQ==
+autoprefixer@^10.4.16, autoprefixer@^10.4.17:
+  version "10.4.17"
+  resolved "https://registry.npmjs.org/autoprefixer/-/autoprefixer-10.4.17.tgz"
+  integrity sha512-/cpVNRLSfhOtcGflT13P2794gVSgmPgTR+erw5ifnMLZb0UnSlkK4tquLmkd3BhA+nLo5tX8Cu0upUsGKvKbmg==
   dependencies:
-    browserslist "^4.21.10"
-    caniuse-lite "^1.0.30001538"
-    fraction.js "^4.3.6"
+    browserslist "^4.22.2"
+    caniuse-lite "^1.0.30001578"
+    fraction.js "^4.3.7"
     normalize-range "^0.1.2"
     picocolors "^1.0.0"
     postcss-value-parser "^4.2.0"
@@ -2307,7 +2348,7 @@ browser-stdout@1.3.1:
   resolved "https://registry.npmjs.org/browser-stdout/-/browser-stdout-1.3.1.tgz"
   integrity sha512-qhAVI1+Av2X7qelOfAIYwXONood6XlZE/fXaBSmW/T5SzLAmCgzi+eiWE7fUvbHaeNBQH13UftjpXxsfLkMpgw==
 
-browserslist@^4.0.0, browserslist@^4.21.10, browserslist@^4.22.2, "browserslist@>= 4.21.0":
+browserslist@^4.0.0, browserslist@^4.22.2, "browserslist@>= 4.21.0":
   version "4.22.2"
   resolved "https://registry.npmjs.org/browserslist/-/browserslist-4.22.2.tgz"
   integrity sha512-0UgcrvQmBDvZHFGdYUehrCNIazki7/lUP3kkoi/r3YB2amZbFM9J43ZRkJTXBUZK4gmx56+Sqk9+Vs9mwZx9+A==
@@ -2468,10 +2509,10 @@ caniuse-api@^3.0.0:
     lodash.memoize "^4.1.2"
     lodash.uniq "^4.5.0"
 
-caniuse-lite@^1.0.0, caniuse-lite@^1.0.30001538, caniuse-lite@^1.0.30001565:
-  version "1.0.30001568"
-  resolved "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001568.tgz"
-  integrity sha512-vSUkH84HontZJ88MiNrOau1EBrCqEQYgkC5gIySiDlpsm8sGVrhU7Kx4V6h0tnqaHzIHZv08HlJIwPbL4XL9+A==
+caniuse-lite@^1.0.0, caniuse-lite@^1.0.30001565, caniuse-lite@^1.0.30001578:
+  version "1.0.30001578"
+  resolved "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001578.tgz"
+  integrity sha512-J/jkFgsQ3NEl4w2lCoM9ZPxrD+FoBNJ7uJUpGVjIg/j0OwJosWM36EPDv+Yyi0V4twBk9pPmlFS+PLykgEvUmg==
 
 chainsaw@~0.1.0:
   version "0.1.0"
@@ -3985,7 +4026,7 @@ formdata-polyfill@^4.0.10:
   dependencies:
     fetch-blob "^3.1.2"
 
-fraction.js@^4.3.6:
+fraction.js@^4.3.7:
   version "4.3.7"
   resolved "https://registry.npmjs.org/fraction.js/-/fraction.js-4.3.7.tgz"
   integrity sha512-ZsDfxO51wGAXREY55a7la9LScWpwv9RxIrYABrlvOFBlH/ShPnrtsXeuUIfXKKOVicNxQ+o8JTbJvjS4M89yew==
@@ -6392,18 +6433,18 @@ nuxt-proxy@^0.4.1:
     http-proxy-middleware "^3.0.0-beta.0"
     ohash "^1.0.0"
 
-nuxt@^3.0.0, nuxt@^3.9.0, nuxt@^3.9.2:
-  version "3.9.2"
-  resolved "https://registry.npmjs.org/nuxt/-/nuxt-3.9.2.tgz"
-  integrity sha512-BGfqqIsvUOm8bmjSORcF7LnsMN7fFQ99JzZ81li2fx9Xw++sEiIC2R1G8PKZ6CwhrRE9X+IVIyrqLkWx3ooHWg==
+nuxt@^3.0.0, nuxt@^3.9.0, nuxt@^3.9.3:
+  version "3.9.3"
+  resolved "https://registry.npmjs.org/nuxt/-/nuxt-3.9.3.tgz"
+  integrity sha512-IzBJAJImqCGfspVZzvznrALnFIJ5rPe+VJvY8OiccwRzWT8sEygVRjh3Mc64yWV6P59rz497wp9RBBBhuV2MVA==
   dependencies:
     "@nuxt/devalue" "^2.0.2"
     "@nuxt/devtools" "^1.0.8"
-    "@nuxt/kit" "3.9.2"
-    "@nuxt/schema" "3.9.2"
+    "@nuxt/kit" "3.9.3"
+    "@nuxt/schema" "3.9.3"
     "@nuxt/telemetry" "^2.5.3"
     "@nuxt/ui-templates" "^1.3.1"
-    "@nuxt/vite-builder" "3.9.2"
+    "@nuxt/vite-builder" "3.9.3"
     "@unhead/dom" "^1.8.10"
     "@unhead/ssr" "^1.8.10"
     "@unhead/vue" "^1.8.10"
@@ -8172,10 +8213,10 @@ sucrase@^3.32.0:
     pirates "^4.0.1"
     ts-interface-checker "^0.1.9"
 
-supabase@^1.131.4:
-  version "1.131.4"
-  resolved "https://registry.npmjs.org/supabase/-/supabase-1.131.4.tgz"
-  integrity sha512-tKfq4GofGT21gW8McyHHbFL3QezWx/mBcJO4r18fl5IgHKFlegCRrDr7YUq94aVwu9aKpQYtuHJiVK+QFEsbpg==
+supabase@^1.131.5:
+  version "1.131.5"
+  resolved "https://registry.npmjs.org/supabase/-/supabase-1.131.5.tgz"
+  integrity sha512-YJ9qoNac+dq521btw6kgqnJEwf6zRsegvooHM1QuxbOzVuL40eqrrNykTue3iCu3/qkVutcq3XPmdPO3TbXaiw==
   dependencies:
     bin-links "^4.0.3"
     https-proxy-agent "^7.0.2"
@@ -9005,10 +9046,10 @@ webdriver@8.28.0:
     ky "^0.33.0"
     ws "^8.8.0"
 
-webdriverio@^8.27.0, webdriverio@8.28.0:
-  version "8.28.0"
-  resolved "https://registry.npmjs.org/webdriverio/-/webdriverio-8.28.0.tgz"
-  integrity sha512-rRVE8pvcxAEqnhhC70oMFkUZ82YWbpXYyzKgfl2LKBue13AHaiN5qWncsJv29rqREIim0dNj6q2JuuUTDFm1gg==
+webdriverio@^8.27.0, webdriverio@8.28.4:
+  version "8.28.4"
+  resolved "https://registry.npmjs.org/webdriverio/-/webdriverio-8.28.4.tgz"
+  integrity sha512-pL06nHmr5Xp6wrq8KxG7IiZgxEEoJvFqyqrZYkInmkJCS0fH+pq0UAEuX3kqC6eZBtMI2geNb8TuLJ9kpvha1g==
   dependencies:
     "@types/node" "^20.1.0"
     "@wdio/config" "8.28.0"
