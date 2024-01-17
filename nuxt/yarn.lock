@@ -1694,10 +1694,10 @@
   dependencies:
     vue-demi ">=0.14.6"
 
-"@wdio/browser-runner@^8.28.1":
-  version "8.28.1"
-  resolved "https://registry.npmjs.org/@wdio/browser-runner/-/browser-runner-8.28.1.tgz"
-  integrity sha512-gJaOU5O/W/BjuEWXP1pKu/SSeNJr8v0Me5jNDo3I1rBh4N8jQsEEU5VfgWPGiC3WEsbN16/PDb/RsWx5TXC2Mw==
+"@wdio/browser-runner@^8.28.3":
+  version "8.28.3"
+  resolved "https://registry.npmjs.org/@wdio/browser-runner/-/browser-runner-8.28.3.tgz"
+  integrity sha512-NtI5kNhhzg5UmFfQGsKspjyD59EbfJ3QVa8UdUwho+Gy/CsYPgHqcZIx8msbkis85l1WKUMePxbBWONMKwygIg==
   dependencies:
     "@babel/plugin-proposal-class-properties" "^7.18.6"
     "@originjs/vite-plugin-commonjs" "^1.0.3"

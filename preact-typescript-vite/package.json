@@ -16,7 +16,7 @@
     "@preact/preset-vite": "^2.8.1",
     "@testing-library/preact": "^3.2.3",
     "@types/mocha": "^10.0.6",
-    "@wdio/browser-runner": "^8.28.1",
+    "@wdio/browser-runner": "^8.28.3",
     "@wdio/cli": "^8.28.0",
     "@wdio/globals": "^8.28.0",
     "@wdio/mocha-framework": "^8.28.0",

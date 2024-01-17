@@ -19,7 +19,7 @@
     "@types/react": "^18.2.48",
     "@types/react-dom": "^18.2.18",
     "@vitejs/plugin-react": "^4.2.1",
-    "@wdio/browser-runner": "^8.28.1",
+    "@wdio/browser-runner": "^8.28.3",
     "@wdio/cli": "^8.28.0",
     "@wdio/globals": "^8.28.0",
     "@wdio/mocha-framework": "^8.28.0",
