@@ -13,7 +13,7 @@
   "type": "module",
   "license": "MIT",
   "devDependencies": {
-    "@wdio/browser-runner": "^8.28.4",
+    "@wdio/browser-runner": "^8.28.5",
     "@wdio/cli": "^8.28.4",
     "@wdio/mocha-framework": "^8.28.0",
     "@wdio/sauce-service": "^8.28.4",
