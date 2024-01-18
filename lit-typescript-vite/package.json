@@ -23,10 +23,10 @@
   "devDependencies": {
     "@testing-library/dom": "^9.3.4",
     "@types/mocha": "^10.0.6",
-    "@wdio/browser-runner": "^8.28.5",
-    "@wdio/cli": "^8.28.4",
-    "@wdio/mocha-framework": "^8.28.0",
-    "@wdio/spec-reporter": "^8.28.0",
+    "@wdio/browser-runner": "^8.28.6",
+    "@wdio/cli": "^8.28.6",
+    "@wdio/mocha-framework": "^8.28.6",
+    "@wdio/spec-reporter": "^8.28.6",
     "ts-node": "^10.9.2",
     "typescript": "^5.3.3",
     "vite": "^5.0.11"
