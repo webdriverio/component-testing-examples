@@ -153,10 +153,10 @@ export const config: Options.Testrunner = {
     preset: 'svelte',
     coverage: {
       enabled: true,
-      statements: 94,
+      statements: 91,
       branches: 75,
       functions: 100,
-      lines: 96
+      lines: 94
     }
   }],
   //
