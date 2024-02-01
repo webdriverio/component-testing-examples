@@ -11,21 +11,21 @@
     "wdio": "wdio run ./wdio.conf.ts"
   },
   "devDependencies": {
-    "@sveltejs/vite-plugin-svelte": "^3.0.1",
-    "@testing-library/svelte": "^4.0.5",
+    "@sveltejs/vite-plugin-svelte": "^3.0.2",
+    "@testing-library/svelte": "^4.1.0",
     "@tsconfig/svelte": "^5.0.2",
     "@types/mocha": "^10.0.6",
-    "@wdio/browser-runner": "^8.28.7",
-    "@wdio/cli": "^8.28.6",
-    "@wdio/globals": "^8.28.6",
-    "@wdio/mocha-framework": "^8.28.6",
-    "@wdio/spec-reporter": "^8.28.6",
+    "@wdio/browser-runner": "^8.29.6",
+    "@wdio/cli": "^8.29.3",
+    "@wdio/globals": "^8.29.3",
+    "@wdio/mocha-framework": "^8.29.3",
+    "@wdio/spec-reporter": "^8.29.3",
     "svelte": "^4.2.9",
     "svelte-check": "^3.6.3",
     "svelte-preprocess": "^5.1.3",
     "ts-node": "^10.9.2",
     "tslib": "^2.6.2",
     "typescript": "^5.3.3",
-    "vite": "^5.0.11"
+    "vite": "^5.0.12"
   }
 }
