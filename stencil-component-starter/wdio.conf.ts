@@ -1,4 +1,9 @@
+import path from 'node:path'
+import url from 'node:url'
 import type { Options } from '@wdio/types'
+
+const __dirname = path.dirname(url.fileURLToPath(import.meta.url))
+
 export const config: Options.Testrunner = {
     //
     // ====================
@@ -115,7 +120,10 @@ export const config: Options.Testrunner = {
     // Services take over a specific job you don't want to take care of. They enhance
     // your test setup with almost no effort. Unlike plugins, they don't add new
     // commands. Instead, they hook themselves up into the test process.
-    // services: [],
+    services: [['visual', {
+      baselineFolder: path.resolve(__dirname, '__snapshots__'),
+      screenshotPath: path.resolve(__dirname, '__snapshots__', '.tmp')
+    }]],
     //
     // Framework you want to run your specs with.
     // The following are supported: Mocha, Jasmine, and Cucumber
@@ -138,7 +146,6 @@ export const config: Options.Testrunner = {
     // The only one supported by default is 'dot'
     // see also: https://webdriver.io/docs/dot-reporter
     reporters: ['spec'],
-
 
     //
     // Options to be passed to Mocha.

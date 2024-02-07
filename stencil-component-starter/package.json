@@ -32,6 +32,7 @@
     "@wdio/cli": "^8.31.0",
     "@wdio/mocha-framework": "^8.31.0",
     "@wdio/spec-reporter": "^8.31.0",
+    "@wdio/visual-service": "^2.0.0",
     "ts-node": "^10.9.2",
     "typescript": "^5.3.3"
   },
