@@ -10,20 +10,20 @@
     "wdio": "wdio run ./wdio.conf.ts"
   },
   "dependencies": {
-    "vue": "^3.4.15"
+    "vue": "^3.4.21"
   },
   "devDependencies": {
-    "@testing-library/vue": "^8.0.1",
+    "@testing-library/vue": "^8.0.2",
     "@types/mocha": "^10.0.6",
-    "@vitejs/plugin-vue": "^5.0.3",
-    "@vue/compiler-dom": "^3.4.15",
-    "@wdio/browser-runner": "^8.31.0",
-    "@wdio/cli": "^8.31.0",
-    "@wdio/mocha-framework": "^8.31.0",
-    "@wdio/spec-reporter": "^8.31.0",
+    "@vitejs/plugin-vue": "^5.0.4",
+    "@vue/compiler-dom": "^3.4.21",
+    "@wdio/browser-runner": "^8.32.3",
+    "@wdio/cli": "^8.32.3",
+    "@wdio/mocha-framework": "^8.32.3",
+    "@wdio/spec-reporter": "^8.32.2",
     "ts-node": "^10.9.2",
     "typescript": "^5.3.3",
-    "vite": "^5.0.12",
-    "vue-tsc": "^1.8.27"
+    "vite": "^5.1.4",
+    "vue-tsc": "^2.0.1"
   }
 }
