@@ -30,7 +30,7 @@ jobs:
         - name: Test
           run: npm run wdio
           working-directory: ${{ matrix.exampleDir }}
-        - uses: actions/upload-artifact@v1
+        - uses: actions/upload-artifact@v4
           if: failure()
           with:
             name: logs
