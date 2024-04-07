@@ -47,4 +47,4 @@ For more information on browser and component testing using WebdriverIO, check o
 
 ## Contributing
 
-Contributions to adding more examples or extending existing examples are very welcome. For questions about this topic, feel free to join our [Gitter Support Channel](https://gitter.im/webdriverio/webdriverio) or raise an issue.
+Contributions to adding more examples or extending existing examples are very welcome. For questions about this topic, feel free to join us on [Discord Support channel](https://discord.webdriver.io) or raise an issue.
