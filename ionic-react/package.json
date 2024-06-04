@@ -8,7 +8,6 @@
     "build": "tsc && vite build",
     "preview": "vite preview",
     "test.unit": "vitest",
-    "lint": "eslint",
     "wdio": "wdio run ./wdio.conf.ts"
   },
   "dependencies": {
@@ -40,8 +39,6 @@
     "@wdio/cli": "^8.32.3",
     "@wdio/mocha-framework": "^8.32.3",
     "@wdio/spec-reporter": "^8.32.2",
-    "eslint": "^8.57.0",
-    "eslint-plugin-react": "^7.33.2",
     "react": "^18.2.0",
     "terser": "^5.28.1",
     "ts-node": "^10.9.2",

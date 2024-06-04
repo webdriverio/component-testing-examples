@@ -10,22 +10,22 @@
     "wdio": "wdio run ./wdio.conf.ts"
   },
   "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
   },
   "devDependencies": {
-    "@testing-library/react": "^14.2.1",
+    "@testing-library/react": "^16.0.0",
     "@types/mocha": "^10.0.6",
-    "@types/react": "^18.2.61",
-    "@types/react-dom": "^18.2.19",
-    "@vitejs/plugin-react": "^4.2.1",
-    "@wdio/browser-runner": "^8.32.3",
-    "@wdio/cli": "^8.32.3",
-    "@wdio/globals": "^8.32.3",
-    "@wdio/mocha-framework": "^8.32.3",
-    "@wdio/spec-reporter": "^8.32.2",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.0",
+    "@wdio/browser-runner": "^8.38.2",
+    "@wdio/cli": "^8.38.2",
+    "@wdio/globals": "^8.38.2",
+    "@wdio/mocha-framework": "^8.38.2",
+    "@wdio/spec-reporter": "^8.38.2",
     "ts-node": "^10.9.2",
-    "typescript": "^5.3.3",
-    "vite": "^5.1.4"
+    "typescript": "^5.4.5",
+    "vite": "^5.2.12"
   }
 }

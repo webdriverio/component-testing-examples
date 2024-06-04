@@ -1,17 +1,15 @@
 {
   "scripts": {
     "start": "sandbox",
-    "lint": "eslint ./app/**/*.mjs --fix",
     "wdio": "wdio run ./wdio.conf.js"
   },
   "devDependencies": {
     "@architect/sandbox": "latest",
-    "@enhance/ssr": "^3.5.2",
-    "@wdio/browser-runner": "^8.32.3",
-    "@wdio/cli": "^8.32.3",
-    "@wdio/mocha-framework": "^8.32.3",
-    "@wdio/spec-reporter": "^8.32.2",
-    "eslint": "latest"
+    "@enhance/ssr": "^4.0.1",
+    "@wdio/browser-runner": "^8.38.2",
+    "@wdio/cli": "^8.38.2",
+    "@wdio/mocha-framework": "^8.38.2",
+    "@wdio/spec-reporter": "^8.38.2"
   },
   "dependencies": {
     "@enhance/arc-plugin-enhance": "latest"

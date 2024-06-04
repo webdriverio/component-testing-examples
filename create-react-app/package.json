@@ -3,18 +3,18 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^6.4.2",
-    "@testing-library/react": "^14.2.1",
+    "@testing-library/jest-dom": "^6.4.5",
+    "@testing-library/react": "^16.0.0",
     "@testing-library/user-event": "^14.5.2",
-    "@wdio/browser-runner": "^8.32.3",
-    "@wdio/cli": "^8.32.3",
-    "@wdio/mocha-framework": "^8.32.3",
-    "@wdio/spec-reporter": "^8.32.2",
-    "@vitejs/plugin-react": "^4.2.1",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
+    "@wdio/browser-runner": "^8.38.2",
+    "@wdio/cli": "^8.38.2",
+    "@wdio/mocha-framework": "^8.38.2",
+    "@wdio/spec-reporter": "^8.38.2",
+    "@vitejs/plugin-react": "^4.3.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
     "react-scripts": "5.0.1",
-    "web-vitals": "^3.5.2"
+    "web-vitals": "^4.0.1"
   },
   "type": "module",
   "scripts": {
