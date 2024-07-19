@@ -5,11 +5,11 @@
   },
   "devDependencies": {
     "@architect/sandbox": "latest",
-    "@enhance/ssr": "^4.0.1",
-    "@wdio/browser-runner": "^8.38.2",
-    "@wdio/cli": "^8.38.2",
-    "@wdio/mocha-framework": "^8.38.2",
-    "@wdio/spec-reporter": "^8.38.2"
+    "@enhance/ssr": "^4.0.2",
+    "@wdio/browser-runner": "9.0.0-alpha.369",
+    "@wdio/cli": "9.0.0-alpha.369",
+    "@wdio/mocha-framework": "9.0.0-alpha.369",
+    "@wdio/spec-reporter": "9.0.0-alpha.369"
   },
   "dependencies": {
     "@enhance/arc-plugin-enhance": "latest"
