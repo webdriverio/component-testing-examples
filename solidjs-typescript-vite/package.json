@@ -13,10 +13,10 @@
   "type": "module",
   "license": "MIT",
   "devDependencies": {
-    "@wdio/browser-runner": "9.0.0",
-    "@wdio/cli": "9.0.0",
+    "@wdio/browser-runner": "9.0.1",
+    "@wdio/cli": "9.0.1",
     "@wdio/mocha-framework": "9.0.0",
-    "@wdio/sauce-service": "9.0.0",
+    "@wdio/sauce-service": "9.0.1",
     "@wdio/spec-reporter": "9.0.0",
     "solid-testing-library": "^0.5.0",
     "ts-node": "^10.9.2",
