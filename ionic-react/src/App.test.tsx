@@ -4,7 +4,7 @@ import { render } from '@testing-library/react';
 import App from './App';
 
 async function getVisiblePage () {
-  return $$('>>>.container').find((page) => page.isDisplayed());
+  return $$('.container').find((page) => page.isDisplayed());
 }
 
 describe('App', () => {
@@ -15,7 +15,7 @@ describe('App', () => {
 
   it('should be able to navigate to other tabs', async () => {
     const { baseElement } = render(<App />);
-    const navLinks = await $(baseElement).$$('>>>ion-label');
+    const navLinks = await $(baseElement).$$('ion-label');
     await navLinks[0].click();
 
     await expect(await getVisiblePage()).toHaveText(
