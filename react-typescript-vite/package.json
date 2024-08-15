@@ -19,13 +19,13 @@
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
     "@vitejs/plugin-react": "^4.3.1",
-    "@wdio/browser-runner": "9.0.0-alpha.369",
-    "@wdio/cli": "9.0.0-alpha.369",
-    "@wdio/globals": "9.0.0-alpha.369",
-    "@wdio/mocha-framework": "9.0.0-alpha.369",
-    "@wdio/spec-reporter": "9.0.0-alpha.369",
+    "@wdio/browser-runner": "9.0.0",
+    "@wdio/cli": "9.0.0",
+    "@wdio/globals": "9.0.0",
+    "@wdio/mocha-framework": "9.0.0",
+    "@wdio/spec-reporter": "9.0.0",
     "ts-node": "^10.9.2",
-    "typescript": "^5.5.3",
-    "vite": "^5.3.4"
+    "typescript": "^5.5.4",
+    "vite": "^5.4.1"
   }
 }
