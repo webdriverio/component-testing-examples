@@ -14,7 +14,7 @@ describe('my-component', () => {
 
     const component = $('my-component')
     await expect(component).toHaveText(`Hello, World! I'm Stencil 'Don't call me a framework' JS`)
-    await expect((await $('>>>span').getCSSProperty('font-weight')).value).toBe(700)
+    await expect((await $('span').getCSSProperty('font-weight')).value).toBe(700)
   });
 
   it('looks visually perfect', async () => {
