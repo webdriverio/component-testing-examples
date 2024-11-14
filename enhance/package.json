@@ -6,10 +6,10 @@
   "devDependencies": {
     "@architect/sandbox": "latest",
     "@enhance/ssr": "^4.0.3",
-    "@wdio/browser-runner": "^9.2.12",
-    "@wdio/cli": "^9.2.12",
+    "@wdio/browser-runner": "^9.2.14",
+    "@wdio/cli": "^9.2.14",
     "@wdio/mocha-framework": "^9.2.8",
-    "@wdio/spec-reporter": "^9.2.8"
+    "@wdio/spec-reporter": "^9.2.14"
   },
   "dependencies": {
     "@enhance/arc-plugin-enhance": "latest"
