@@ -13,12 +13,12 @@ describe('Zoom Component', () => {
     // zoom in
     await browser.action('wheel').scroll({ origin: $container.$('img'), deltaY: -250 }).perform()
     await expect($container.$('.react-transform-component'))
-      .toHaveAttrContaining('style', 'transform: translate(-16px, -16px) scale(1.16)')
+      .toHaveAttr('style', expect.stringContaining('transform: translate(-16px, -16px) scale(1.16)'))
 
     // zoom out
     await browser.action('wheel').scroll({ origin: $container.$('img'), deltaY: 250 }).perform()
     await expect($container.$('.react-transform-component'))
-      .toHaveAttrContaining('style', 'transform: translate(0px, 0px) scale(1)')
+      .toHaveAttr('style', expect.stringContaining('transform: translate(0px, 0px) scale(1)'))
   })
 
   it('can zoom in via gestures', async () => {
@@ -42,7 +42,7 @@ describe('Zoom Component', () => {
     ])
     await browser.pause(5000)
     await expect($container.$('.react-transform-component'))
-      .toHaveAttrContaining('style', 'transform: translate(-16px, -16px) scale(1.16)')
+      .toHaveAttr('style', expect.stringContaining('transform: translate(-16px, -16px) scale(1.16)'))
 
     // zoom out
     await browser.actions([
@@ -59,6 +59,6 @@ describe('Zoom Component', () => {
         .up()
     ])
     await expect($container.$('.react-transform-component'))
-      .toHaveAttrContaining('style', 'transform: translate(0px, 0px) scale(1)')
+      .toHaveAttr('style', expect.stringContaining('transform: translate(0px, 0px) scale(1)'))
   })
 })

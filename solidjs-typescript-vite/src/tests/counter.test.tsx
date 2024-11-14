@@ -8,17 +8,20 @@ describe('my component tests', () => {
 
   it('it starts with zero', async () => {
     render(() => <Counter />)
-    const button = screen.getByRole("button");
+    const button = screen.getByRole('button');
     expect($(button)).toBePresent();
-    expect($(button)).toHaveTextContaining("Count: 0");
+    expect($(button)).toHaveText(
+      expect.stringContaining('Count: 0'));
   });
 
-  it("it increases its value on click", async () => {
+  it('it increases its value on click', async () => {
     render(() => <Counter />);
-    const button = screen.getByRole("button");
+    const button = screen.getByRole('button');
     await $(button).click()
-    expect($(button)).toHaveTextContaining("Count: 1");
+    expect($(button)).toHaveText(
+      expect.stringContaining('Count: 1'));
     await $(button).click()
-    expect(button).toHaveTextContaining("Count: 2");
+    expect(button).toHaveText(
+      expect.stringContaining('Count: 2'));
   });
 })

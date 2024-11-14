@@ -60,30 +60,46 @@ describe('LoginForm', () => {
 
     it('should show both validation errors if login is attempted without entering username or password', async () => {
       await $btnLogin.click()
-      await expect($form).toHaveTextContaining('Username is required')
-      await expect($form).toHaveTextContaining('Password is required')
+      await expect($form).toHaveText(
+        expect.stringContaining('Username is required')
+      )
+      await expect($form).toHaveText(
+        expect.stringContaining('Password is required')
+      )
       expect(onLogin).toBeCalledTimes(0)
     })
 
     it('should only show password validation error if login is attempted without entering password', async () => {
       await $username.setValue(username)
       await $btnLogin.click()
-      await expect($form).not.toHaveTextContaining('Username is required')
-      await expect($form).toHaveTextContaining('Password is required')
+      await expect($form).not.toHaveText(
+        expect.stringContaining('Username is required')
+      )
+      await expect($form).toHaveText(
+        expect.stringContaining('Password is required')
+      )
       expect(onLogin).toBeCalledTimes(0)
     })
 
     it('should only show username validation error if login is attempted without entering username', async () => {
       await $password.setValue(username)
       await $btnLogin.click()
-      await expect($form).toHaveTextContaining('Username is required')
-      await expect($form).not.toHaveTextContaining('Password is required')
+      await expect($form).toHaveText(
+        expect.stringContaining('Username is required')
+      )
+      await expect($form).not.toHaveText(
+        expect.stringContaining('Password is required')
+      )
       expect(onLogin).toBeCalledTimes(0)
     })
 
     it('should not show any validation errors before login is attempted', async () => {
-      await expect($form).not.toHaveTextContaining('Username is required')
-      await expect($form).not.toHaveTextContaining('Password is required')
+      await expect($form).not.toHaveText(
+        expect.stringContaining('Username is required')
+      )
+      await expect($form).not.toHaveText(
+        expect.stringContaining('Password is required')
+      )
     })
   })
 })
