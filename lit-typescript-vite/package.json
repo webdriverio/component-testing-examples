@@ -22,13 +22,13 @@
   },
   "devDependencies": {
     "@testing-library/dom": "^10.4.0",
-    "@types/mocha": "^10.0.9",
-    "@wdio/browser-runner": "^9.2.14",
-    "@wdio/cli": "^9.2.14",
-    "@wdio/mocha-framework": "^9.2.8",
-    "@wdio/spec-reporter": "^9.2.14",
+    "@types/mocha": "^10.0.10",
+    "@wdio/browser-runner": "^9.6.0",
+    "@wdio/cli": "^9.6.0",
+    "@wdio/mocha-framework": "^9.5.0",
+    "@wdio/spec-reporter": "^9.5.0",
     "ts-node": "^10.9.2",
-    "typescript": "^5.6.3",
-    "vite": "^5.4.11"
+    "typescript": "^5.7.3",
+    "vite": "^6.0.11"
   }
 }
