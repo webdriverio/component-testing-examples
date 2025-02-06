@@ -15,7 +15,6 @@ jobs:
           - enhance
           - nuxt
           - nextjs
-          - create-react-app
           - stencil-component-starter
           - ionic-react
     steps:
