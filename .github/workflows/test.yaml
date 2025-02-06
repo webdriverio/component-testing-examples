@@ -14,7 +14,8 @@ jobs:
           - solidjs-typescript-vite
           - enhance
           - nuxt
-          - nextjs
+          # disable due to: https://github.com/webdriverio/webdriverio/issues/14160
+          # - nextjs
           - stencil-component-starter
           - ionic-react
     steps:
