@@ -13,8 +13,8 @@ jobs:
           - vue-typescript-vite
           - solidjs-typescript-vite
           - enhance
-          - nuxt
           # disable due to: https://github.com/webdriverio/webdriverio/issues/14160
+          # - nuxt
           # - nextjs
           - stencil-component-starter
           - ionic-react
