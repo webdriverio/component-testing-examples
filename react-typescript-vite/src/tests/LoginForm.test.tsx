@@ -35,10 +35,10 @@ describe('LoginForm', () => {
 
     beforeEach(async () => {
       const { container } = render(<LoginForm onLogin={onLogin} />)
-      $username = await $('input[name="username"]')
-      $password = await $('input[name="password"]')
-      $btnLogin = await $('button=Login')
-      $form = await $(container)
+      $username = await $('input[name="username"]') as unknown as WebdriverIO.Element
+      $password = await $('input[name="password"]') as unknown as WebdriverIO.Element
+      $btnLogin = await $('button=Login') as unknown as WebdriverIO.Element
+      $form = await $(container) as unknown as WebdriverIO.Element
       onLogin.mockClear()
     })
 
