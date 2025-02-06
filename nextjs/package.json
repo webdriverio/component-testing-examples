@@ -9,10 +9,12 @@
     "wdio": "wdio run ./wdio.conf.mts"
   },
   "dependencies": {
-    "next": "15.1.6",
-    "react-dom": "^19"
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "next": "15.1.6"
   },
   "devDependencies": {
+    "@tailwindcss/postcss": "^4.0.4",
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^16.2.0",
     "@types/node": "^22",
@@ -24,10 +26,13 @@
     "@wdio/mocha-framework": "^9.7.3",
     "@wdio/spec-reporter": "^9.6.3",
     "autoprefixer": "^10.4.20",
-    "postcss": "^8",
+    "postcss": "^8.5.1",
     "react": "^19.0.0",
     "tailwindcss": "^4.0.4",
     "ts-node": "^10.9.2",
-    "typescript": "^5"
+    "typescript": "^5",
+    "eslint": "^9",
+    "eslint-config-next": "15.1.6",
+    "@eslint/eslintrc": "^3"
   }
 }
