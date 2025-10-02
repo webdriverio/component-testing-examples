@@ -1,5 +1,5 @@
 /// <reference types="@wdio/globals/types" />
-import React from 'react'
+import 'react'
 import { $, expect } from '@wdio/globals'
 import { fn } from '@wdio/browser-runner'
 import { Key } from 'webdriverio'
@@ -46,16 +46,16 @@ describe('LoginForm', () => {
       await $username.setValue(username)
       await $password.setValue(password)
       await $btnLogin.click()
-      expect(onLogin).toBeCalledTimes(1)
-      expect(onLogin).toBeCalledWith({ username, password })
+      expect(onLogin).toHaveBeenCalledTimes(1)
+      expect(onLogin).toHaveBeenCalledWith({ username, password })
     })
 
     it('should call onLogin with username and password when enter is pressed in an input', async () => {
       await $username.setValue(username)
       await $password.setValue(password)
       await browser.keys(Key.Enter)
-      expect(onLogin).toBeCalledTimes(1)
-      expect(onLogin).toBeCalledWith({ username, password })
+      expect(onLogin).toHaveBeenCalledTimes(1)
+      expect(onLogin).toHaveBeenCalledWith({ username, password })
     })
 
     it('should show both validation errors if login is attempted without entering username or password', async () => {
@@ -66,7 +66,7 @@ describe('LoginForm', () => {
       await expect($form).toHaveText(
         expect.stringContaining('Password is required')
       )
-      expect(onLogin).toBeCalledTimes(0)
+      expect(onLogin).toHaveBeenCalledTimes(0)
     })
 
     it('should only show password validation error if login is attempted without entering password', async () => {
@@ -78,7 +78,7 @@ describe('LoginForm', () => {
       await expect($form).toHaveText(
         expect.stringContaining('Password is required')
       )
-      expect(onLogin).toBeCalledTimes(0)
+      expect(onLogin).toHaveBeenCalledTimes(0)
     })
 
     it('should only show username validation error if login is attempted without entering username', async () => {
@@ -90,7 +90,7 @@ describe('LoginForm', () => {
       await expect($form).not.toHaveText(
         expect.stringContaining('Password is required')
       )
-      expect(onLogin).toBeCalledTimes(0)
+      expect(onLogin).toHaveBeenCalledTimes(0)
     })
 
     it('should not show any validation errors before login is attempted', async () => {

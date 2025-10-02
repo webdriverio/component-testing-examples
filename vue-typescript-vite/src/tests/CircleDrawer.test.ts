@@ -1,19 +1,15 @@
 /// <reference types="@wdio/globals/types" />
 import { $, $$, expect, browser } from '@wdio/globals'
-import { render } from '@testing-library/vue'
+import { render, cleanup } from '@testing-library/vue'
 import CircleDrawer from '../components/CircleDrawer.vue'
 
 describe('Vue Component Testing', () => {
-  let root: HTMLElement
-
-  beforeEach(async () => {
-    const { baseElement } = render(CircleDrawer)
-    root = baseElement as HTMLElement
-    baseElement.setAttribute('style', 'height: 500px')
+  afterEach(() => {
+    cleanup()
   })
 
-  async function setCircle (x?: number, y?: number) {
-    const $root = await $(root)
+  async function setCircle (x?: number, y?: number, root?: HTMLElement) {
+    const $root = await $(root!)
     await browser.action('pointer')
       .move(x && y ? { x, y } : { origin: $root })
       .down()
@@ -29,43 +25,62 @@ describe('Vue Component Testing', () => {
       .perform()
   }
 
-  beforeEach(async () => {
-    await browser.pause(100)
-  })
-
   it('can set a circle', async () => {
-    await setCircle()
-    const circle = await $('circle')
-    expect(await circle.getAttribute('cy')).toBe('250')
-    expect(await circle.getAttribute('r')).toBe('50')
-    expect(await circle.getAttribute('fill')).toBe('#fff')
+    const { baseElement, container } = render(CircleDrawer)
+    const root = baseElement as HTMLElement
+    baseElement.setAttribute('style', 'height: 500px')
+    await browser.pause(100)
+    
+    await setCircle(undefined, undefined, root)
+    const $container = await $(container)
+    let circles = await $container.$$('circle')
+    expect(circles).toHaveLength(1)
+    expect(await circles[0].getAttribute('cy')).toBe('250')
+    expect(await circles[0].getAttribute('r')).toBe('50')
+    expect(await circles[0].getAttribute('fill')).toBe('#fff')
 
-    await setCircle(200, 200)
-    const circles = await $$('circle')
+    await setCircle(200, 200, root)
+    circles = await $container.$$('circle')
 
     expect(circles).toHaveLength(2)
-    expect(await circle.getAttribute('fill')).toBe('#fff')
+    // After adding a second circle, no circle should be selected
+    expect(await circles[0].getAttribute('fill')).toBe('#fff')
+    expect(await circles[1].getAttribute('fill')).toBe('#fff')
 
-    await $('button=Undo').click()
-    await expect($$('circle')).toBeElementsArrayOfSize(1)
+    await $container.$('button=Undo').click()
+    circles = await $container.$$('circle')
+    expect(circles).toHaveLength(1)
 
-    await $('button=Redo').click()
-    await expect($$('circle')).toBeElementsArrayOfSize(2)
+    await $container.$('button=Redo').click()
+    circles = await $container.$$('circle')
+    expect(circles).toHaveLength(2)
   })
 
   it('pop up modal for adjusting circle size', async () => {
-    await setCircle()
-    const circle = await $('circle')
+    const { baseElement, container } = render(CircleDrawer)
+    const root = baseElement as HTMLElement
+    baseElement.setAttribute('style', 'height: 500px')
+    await browser.pause(100)
+    
+    await setCircle(undefined, undefined, root)
+    const $container = await $(container)
+    const circle = await $container.$('circle')
     await openAdjustMenu(circle)
-    expect($('.dialog')).toBeExisting()
+    expect($container.$('.dialog')).toBeExisting()
   })
 
   it('can modify size of circle', async () => {
-    await setCircle()
-    const circle = await $('circle')
+    const { baseElement, container } = render(CircleDrawer)
+    const root = baseElement as HTMLElement
+    baseElement.setAttribute('style', 'height: 500px')
+    await browser.pause(100)
+    
+    await setCircle(undefined, undefined, root)
+    const $container = await $(container)
+    const circle = await $container.$('circle')
     await openAdjustMenu(circle)
 
-    const menu = await $('.dialog input')
+    const menu = await $container.$('.dialog input')
     const size = await menu.getSize()
     const location = await menu.getLocation()
     await browser.action('pointer')
