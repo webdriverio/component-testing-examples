@@ -130,6 +130,27 @@ export const config: Options.Testrunner = {
   //
   runner: ['browser', {
     preset: 'lit',
+    viteConfig: {
+      optimizeDeps: {
+        include: [
+          '@wdio/browser-runner > expect',
+          '@wdio/browser-runner > minimatch',
+          '@wdio/browser-runner > css-shorthand-properties',
+          '@wdio/browser-runner > ws',
+          '@wdio/browser-runner > lodash.clonedeep',
+          '@wdio/browser-runner > lodash.pickby',
+          '@wdio/browser-runner > lodash.flattendeep',
+          '@wdio/browser-runner > aria-query',
+          '@wdio/browser-runner > grapheme-splitter',
+          '@wdio/browser-runner > css-value',
+          '@wdio/browser-runner > rgb2hex',
+          '@wdio/browser-runner > deepmerge-ts',
+          '@wdio/browser-runner > jest-util',
+          '@wdio/browser-runner > jest-matcher-utils',
+          '@wdio/browser-runner > split2'
+        ]
+      }
+    },
     coverage: {
       enabled: true,
       statements: 100,
