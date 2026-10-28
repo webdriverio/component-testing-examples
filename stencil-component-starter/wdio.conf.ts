@@ -1,5 +1,6 @@
 import path from 'node:path'
 import url from 'node:url'
+import { findStaticImports } from 'mlly'
 import type { Options } from '@wdio/types'
 
 const __dirname = path.dirname(url.fileURLToPath(import.meta.url))
@@ -12,6 +13,37 @@ export const config: Options.Testrunner = {
     // WebdriverIO supports running e2e tests as well as unit and component tests.
     runner: ['browser', {
         preset: 'stencil',
+        viteConfig: {
+            plugins: [{
+                name: 'wdio-stencil-css-inline-fix',
+                transform(code: string, id: string) {
+                    if (!code.includes('.css?tag=')) {
+                        return
+                    }
+                    let transformedCode = code
+                    for (const imp of findStaticImports(transformedCode)) {
+                        if (!imp.specifier.includes('.css?tag=')) {
+                            continue
+                        }
+                        const strippedSpecifier = imp.specifier.replace(/&inline$/, '')
+                        const rawSpecifier = strippedSpecifier.startsWith('/@fs/')
+                            ? strippedSpecifier.replace(/^\/@fs\/?/, (m) => /^[A-Za-z]:/.test(strippedSpecifier.slice(m.length)) ? '' : '/')
+                            : strippedSpecifier
+                        const resolvedPath = path.resolve(path.dirname(id), rawSpecifier).replace(/\\/g, '/')
+                        const cssUrl = `/@fs/${resolvedPath.replace(/^\//, '')}&inline`
+                        const styleVarName = imp.imports.trim()
+                        const isStyleCalledAsFunction = new RegExp(`return\\s+${styleVarName}\\s*\\(\\)`).test(transformedCode)
+                        transformedCode = transformedCode.replace(
+                            imp.code,
+                            isStyleCalledAsFunction
+                                ? `import __${styleVarName}Css from '${cssUrl}';\nconst ${styleVarName} = () => __${styleVarName}Css;\n`
+                                : `import ${styleVarName} from '${cssUrl}';\n`
+                        )
+                    }
+                    return { code: transformedCode }
+                }
+            }]
+        }
         // start browser window when `DEBUG` environment variable is set
         // headless: !Boolean(process.env.DEBUG)
     }],
