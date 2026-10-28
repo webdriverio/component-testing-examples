@@ -1,32 +1,11 @@
 import url from 'url'
 import path from 'path'
 
-import type { Options } from '@wdio/types'
+import '@wdio/globals/types'
 
 const __dirname = url.fileURLToPath(new URL('.', import.meta.url))
 
-export const config: Options.Testrunner = {
-  //
-  // =====================
-  // ts-node Configurations
-  // =====================
-  //
-  // You can write tests using TypeScript to get autocompletion and type safety.
-  // You will need typescript and ts-node installed as devDependencies.
-  // WebdriverIO will automatically detect if these dependencies are installed
-  // and will compile your config and tests for you.
-  // If you need to configure how ts-node runs please use the
-  // environment variables for ts-node or use wdio config's autoCompileOpts section.
-  //
-  autoCompileOpts: {
-    autoCompile: true,
-    // see https://github.com/TypeStrong/ts-node#cli-and-programmatic-options
-    // for all available options
-    tsNodeOpts: {
-      transpileOnly: true,
-      project: './tsconfig.json'
-    }
-  },
+export const config: WebdriverIO.Config = {
   //
   // ==================
   // Specify Test Files
@@ -131,6 +110,27 @@ export const config: Options.Testrunner = {
   // WebdriverIO Runner:
   runner: ['browser', {
     preset: 'react',
+    viteConfig: {
+      optimizeDeps: {
+        include: [
+          '@wdio/browser-runner > expect',
+          '@wdio/browser-runner > minimatch',
+          '@wdio/browser-runner > css-shorthand-properties',
+          '@wdio/browser-runner > ws',
+          '@wdio/browser-runner > lodash.clonedeep',
+          '@wdio/browser-runner > lodash.pickby',
+          '@wdio/browser-runner > lodash.flattendeep',
+          '@wdio/browser-runner > aria-query',
+          '@wdio/browser-runner > grapheme-splitter',
+          '@wdio/browser-runner > css-value',
+          '@wdio/browser-runner > rgb2hex',
+          '@wdio/browser-runner > deepmerge-ts',
+          '@wdio/browser-runner > jest-util',
+          '@wdio/browser-runner > jest-matcher-utils',
+          '@wdio/browser-runner > split2'
+        ]
+      }
+    },
     coverage: {
       enabled: true,
       statements: 100,
