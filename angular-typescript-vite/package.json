@@ -1,0 +1,24 @@
+{
+  "name": "angular-typescript-vite",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "wdio": "wdio run ./wdio.conf.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@angular/compiler": "^21.0.0",
+    "@angular/core": "^21.0.0",
+    "@angular/platform-browser": "^21.0.0",
+    "rxjs": "^7.8.0"
+  },
+  "devDependencies": {
+    "@types/mocha": "^10.0.10",
+    "@wdio/browser-runner": "^10.2.0",
+    "@wdio/cli": "^10.2.0",
+    "@wdio/globals": "^10.2.0",
+    "@wdio/mocha-framework": "^10.2.0",
+    "@wdio/types": "^10.2.0",
+    "typescript": "~5.9.0"
+  }
+}

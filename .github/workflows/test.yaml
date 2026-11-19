@@ -18,12 +18,15 @@ jobs:
           # - nextjs
           - stencil-component-starter
           - ionic-react
+        include:
+          - exampleDir: angular-typescript-vite
+            nodeVersion: 24
     steps:
         - name: Checkout
           uses: actions/checkout@v4
         - uses: actions/setup-node@v4
           with:
-            node-version: 18
+            node-version: ${{ matrix.nodeVersion || 18 }}
         - name: Install
           run: npm install
           working-directory: ${{ matrix.exampleDir }}
